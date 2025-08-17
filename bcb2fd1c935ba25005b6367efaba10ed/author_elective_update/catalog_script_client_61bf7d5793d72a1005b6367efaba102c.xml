@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>true</applies_req_item>
+        <applies_sc_task>true</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Request Desktop or Laptop">5fc33510939ba25005b6367efaba1027</cat_item>
+        <cat_variable>IO:b735b95b93972a1005b6367efaba10c4</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Pick manager if empty</name>
+        <order/>
+        <published_ref/>
+        <script><![CDATA[function onLoad() {
+
+    //Type appropriate comment here, and begin script below
+
+    var managerField = 'manager';
+    var mger = g_form.getValue('manager');
+
+    if (mger === '') {
+        // If the triggering field has no value
+        var message = 'You do not have a manager assigned, please choose one.';
+        g_form.showFieldMsg(managerField, message, 'info');
+        g_form.setReadOnly(managerField, false);
+        g_form.setMandatory(managerField, true);
+
+    } else {
+        // If the triggering field has a value
+        g_form.setReadOnly(managerField, true);
+        g_form.setMandatory(managerField, false);
+    }
+}
+
+// function onChange(control, oldValue, newValue, isLoading) {
+//    if (isLoading || newValue == '') {
+//       return;
+//    }]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-16 22:08:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>61bf7d5793d72a1005b6367efaba102c</sys_id>
+        <sys_mod_count>38</sys_mod_count>
+        <sys_name>Pick manager if empty</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>catalog_script_client_61bf7d5793d72a1005b6367efaba102c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-17 16:07:00</sys_updated_on>
+        <table/>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</application>
+        <file_path/>
+        <instance_id>08d927e7eba4aa50cbdefceacad0cd10</instance_id>
+        <instance_name>dev314304</instance_name>
+        <name>catalog_script_client_61bf7d5793d72a1005b6367efaba102c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;true&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;true&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Request Desktop or Laptop"&gt;5fc33510939ba25005b6367efaba1027&lt;/cat_item&gt;&lt;cat_variable&gt;IO:b735b95b93972a1005b6367efaba10c4&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Pick manager if empty&lt;/name&gt;&lt;order/&gt;&lt;published_ref/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+
+    //Type appropriate comment here, and begin script below
+
+    var managerField = 'manager';
+    var mger = g_form.getValue('manager');
+
+    if (mger === '') {
+        // If the triggering field has no value
+        var message = 'You do not have a manager assigned, please choose one.';
+        g_form.showFieldMsg(managerField, message, 'info');
+        g_form.setReadOnly(managerField, false);
+        g_form.setMandatory(managerField, true);
+
+    } else {
+        // If the triggering field has a value
+        g_form.setReadOnly(managerField, true);
+        g_form.setMandatory(managerField, false);
+    }
+}
+
+// function onChange(control, oldValue, newValue, isLoading) {
+//    if (isLoading || newValue == '') {
+//       return;
+//    }]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-16 22:08:19&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;61bf7d5793d72a1005b6367efaba102c&lt;/sys_id&gt;&lt;sys_mod_count&gt;38&lt;/sys_mod_count&gt;&lt;sys_name&gt;Pick manager if empty&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk"&gt;bcb2fd1c935ba25005b6367efaba10ed&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MyServiceDesk"&gt;bcb2fd1c935ba25005b6367efaba10ed&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_61bf7d5793d72a1005b6367efaba102c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-17 16:07:00&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;va_supported&gt;true&lt;/va_supported&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2035575671</payload_hash>
+        <record_name>Pick manager if empty</record_name>
+        <reverted_from/>
+        <source>30b2f99c935ba25005b6367efaba107c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-17 16:07:00</sys_created_on>
+        <sys_id>954a71ef939b6a1005b6367efaba10d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198b8c8bef20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-17 16:07:00</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>5d4a71ef359b6a10c2bd32a8a65dcad6</update_guid>
+        <update_guid_history>5d4a71ef359b6a10c2bd32a8a65dcad6:-2035575671,0a3a31eff49b6a10ae94bbad96b6289b:-115760325,c7e9b9af759b6a10a930c48e4d066e3c:-1891055660,6179f56ff19b6a10742fd5067c39f43a:-1947317708,29697d6f319b6a103bacb72cc3b119e8:-2006413679,0b09fd2ff89b6a10c26cb7406dac0e41:1328803494,bf98f5eb8c9b6a107beb9ed4209398e4:212940968,7d76fd2b3b9b6a106079d2e98f678bdc:-1495023615,5106f16b2d9b6a104c88869df839573d:919494244,81d5bd2bd49b6a104f1949f2bec627b9:-911792806,e304b9a7c99b6a10b8a2e21de72e43f5:1233929271,e2b37d674f9b6a1039b19cf149a2eaac:-551415812,92237927e79b6a10ea398c011d6cdbcd:946087769,94527527df9b6a105a818f78eb4196cb:919494244,dab035a31c9b6a1009f9414b615d2376:-1257515370,ef60925fbf1b2a107665bd5ab2ad7050:1455056082,d920da1f451b2a101c3504a240a74308:-1346000989,90cf861f5e1b2a108aea8479bfedbb72:-2072369899,17af4adbfa1b2a1017e168785751fa98:-1346000989,a17fcedb451b2a10150bb5244f552f4e:684244582,3e9c421bee1b2a10d1a5e718b5ef00e3:1551006832,315c0ed72a1b2a10af71ea176c5acc32:1312004848,e04c0e97ad1b2a106ff73bc03fb61757:472096853,ce8a0657831b2a10cd90fae7125458de:831259484,101a0ed3f71b2a1021c9a78311b7971c:777997892,20b9c2d33b1b2a104da94ff5218f6611:-1923805026,14598ad3dc1b2a1019b9b230c4834c7a:-151016364,fa784a93f01b2a10a80dab0f4e0f269c:-23612521,ec38c293f21b2a10dbd196fad43afd4a:-1152287914,cb474e135c1b2a1060f7d498b598b59a:71286575,81d6c613841b2a1082d31ddd20a58a8f:-1690273544,a5964213a91b2a1001b37c211f9260bd:-1918956463,153602df57d72a10acb286c76a428b7f:1218373977,85c54a9f8dd72a10478642ee1bd15c36:2146025958,e8750a9fc2d72a10f467f1c74461000a:1588492001,e025429fd1d72a1007436585406a4386:560717545,0eb3061f50d72a1020e298fc12466bf4:887380334,d8b34edb8bd72a107c49a67ee7eeddf9:289269032,2063ca171bd72a100ffa1df531d062b6:1308068778</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Pick manager if empty">5b8bf9af939b6a1005b6367efaba100a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-17 16:12:36</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>c6ddbe5ef09540a5a90247e7c7837e31</sys_id>
+        <sys_metadata>61bf7d5793d72a1005b6367efaba102c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pick manager if empty</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_scope_delete display_value="">447b3e640b474124ae5e82f54cbb34a1</sys_scope_delete>
+        <sys_update_name>catalog_script_client_61bf7d5793d72a1005b6367efaba102c</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_61bf7d5793d72a1005b6367efaba102c">954a71ef939b6a1005b6367efaba10d7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-17 16:12:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

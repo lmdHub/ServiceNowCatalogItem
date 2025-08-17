@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="INSERT_OR_UPDATE">
+        <create_roles/>
+        <description/>
+        <display_title>true</display_title>
+        <internal_name>contact_information</internal_name>
+        <layout>2down</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-14 06:20:33</sys_created_on>
+        <sys_id>c8e658a293d3261005b6367efaba1043</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>Contact Information</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>item_option_new_set_c8e658a293d3261005b6367efaba1043</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-15 15:11:19</sys_updated_on>
+        <title>Contact Information</title>
+        <type>one_to_one</type>
+        <version>32</version>
+        <write_roles/>
+    </item_option_new_set>
+</record_update>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Requested Item">a278aa90939fa25005b6367efaba1047</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 17:12:54</sys_created_on>
+        <sys_id>84496614939fa25005b6367efaba10b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Laptop</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>question_choice_84496614939fa25005b6367efaba10b0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 17:12:54</sys_updated_on>
+        <text>Laptop</text>
+        <value>laptop</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=84496614939fa25005b6367efaba10b0"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>84496614939fa25005b6367efaba10b0</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 17:12:55</sys_created_on>
+        <sys_id>e17962d0939fa25005b6367efaba10d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 17:12:55</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>84496614939fa25005b6367efaba10b0</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 17:12:55</sys_created_on>
+        <sys_id>a97962d0939fa25005b6367efaba10d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 17:12:55</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</application>
+        <file_path/>
+        <instance_id>08d927e7eba4aa50cbdefceacad0cd10</instance_id>
+        <instance_name>dev314304</instance_name>
+        <name>question_choice_84496614939fa25005b6367efaba10b0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><misc>0</misc><order>100</order><published_ref/><question display_value="Requested Item">a278aa90939fa25005b6367efaba1047</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-07 17:12:54</sys_created_on><sys_id>84496614939fa25005b6367efaba10b0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Laptop</sys_name><sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package><sys_policy/><sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope><sys_update_name>question_choice_84496614939fa25005b6367efaba10b0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-07 17:12:54</sys_updated_on><text>Laptop</text><value>laptop</value></question_choice><fx_price action="delete_multiple" query="id=84496614939fa25005b6367efaba10b0"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>84496614939fa25005b6367efaba10b0</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-07 17:12:55</sys_created_on><sys_id>e17962d0939fa25005b6367efaba10d5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-07 17:12:55</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>84496614939fa25005b6367efaba10b0</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-07 17:12:55</sys_created_on><sys_id>a97962d0939fa25005b6367efaba10d4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-07 17:12:55</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>-1593026670</payload_hash>
+        <record_name>Laptop</record_name>
+        <reverted_from/>
+        <source>30b2f99c935ba25005b6367efaba107c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 17:12:55</sys_created_on>
+        <sys_id>e579aa14939fa25005b6367efaba1060</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19885857f940000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 17:12:55</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>e979aa14779fa25060761abee16b125f</update_guid>
+        <update_guid_history>e979aa14779fa25060761abee16b125f:-1593026670</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Laptop">193bee94939fa25005b6367efaba1035</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 17:20:32</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>082d8509e5dc48408155edc5a0f82100</sys_id>
+        <sys_metadata>84496614939fa25005b6367efaba10b0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Laptop</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_scope_delete display_value="">447b3e640b474124ae5e82f54cbb34a1</sys_scope_delete>
+        <sys_update_name>question_choice_84496614939fa25005b6367efaba10b0</sys_update_name>
+        <sys_update_version display_value="question_choice_84496614939fa25005b6367efaba10b0">e579aa14939fa25005b6367efaba1060</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 17:20:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

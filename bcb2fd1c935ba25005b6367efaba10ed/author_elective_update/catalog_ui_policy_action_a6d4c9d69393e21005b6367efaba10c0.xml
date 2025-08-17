@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Request Desktop or Laptop">5fc33510939ba25005b6367efaba1027</catalog_item>
+        <catalog_variable>IO:5c2f62d8939fa25005b6367efaba10ed</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-13 15:01:21</sys_created_on>
+        <sys_id>a6d4c9d69393e21005b6367efaba10c0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>employee_type</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_a6d4c9d69393e21005b6367efaba10c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-13 15:24:21</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Display for non broken item">c6c0b29c939fa25005b6367efaba10dd</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>employee_type</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=a6d4c9d69393e21005b6367efaba10c0"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</application>
+        <file_path/>
+        <instance_id>08d927e7eba4aa50cbdefceacad0cd10</instance_id>
+        <instance_name>dev314304</instance_name>
+        <name>catalog_ui_policy_action_a6d4c9d69393e21005b6367efaba10c0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Request Desktop or Laptop">5fc33510939ba25005b6367efaba1027</catalog_item><catalog_variable>IO:5c2f62d8939fa25005b6367efaba10ed</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-13 15:01:21</sys_created_on><sys_id>a6d4c9d69393e21005b6367efaba10c0</sys_id><sys_mod_count>1</sys_mod_count><sys_name>employee_type</sys_name><sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package><sys_policy/><sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope><sys_update_name>catalog_ui_policy_action_a6d4c9d69393e21005b6367efaba10c0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-13 15:24:21</sys_updated_on><table/><ui_policy display_value="Display for non broken item">c6c0b29c939fa25005b6367efaba10dd</ui_policy><value/><value_action>ignore</value_action><variable>employee_type</variable><variable_set/><visible>true</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=a6d4c9d69393e21005b6367efaba10c0"/></record_update>]]></payload>
+        <payload_hash>1016909223</payload_hash>
+        <record_name>employee_type</record_name>
+        <reverted_from/>
+        <source>30b2f99c935ba25005b6367efaba107c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-13 15:24:21</sys_created_on>
+        <sys_id>a52ac5de9393e21005b6367efaba1081</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198a40843670000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-13 15:24:21</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>6d2ac5dedf93e210083ddcfe58103480</update_guid>
+        <update_guid_history>6d2ac5dedf93e210083ddcfe58103480:1016909223,e4e4091a3c93e210080a024175da091e:1102337528</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="employee_type">525ac5de9393e21005b6367efaba10c8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-13 15:25:13</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>49f9667a0ad049f19ddc7a0df327ee39</sys_id>
+        <sys_metadata>a6d4c9d69393e21005b6367efaba10c0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>employee_type</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_scope_delete display_value="">447b3e640b474124ae5e82f54cbb34a1</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_a6d4c9d69393e21005b6367efaba10c0</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_a6d4c9d69393e21005b6367efaba10c0">a52ac5de9393e21005b6367efaba1081</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-13 15:25:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

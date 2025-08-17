@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="DELETE">
+        <create_roles/>
+        <description/>
+        <display_title>true</display_title>
+        <internal_name>shiping_information</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>300</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-14 04:01:55</sys_created_on>
+        <sys_id>f8a6fb969313261005b6367efaba10d7</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Shiping Information</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>item_option_new_set_f8a6fb969313261005b6367efaba10d7</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-14 04:16:44</sys_updated_on>
+        <title>Shiping Information</title>
+        <type>one_to_one</type>
+        <version>10</version>
+        <write_roles/>
+    </item_option_new_set>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</application>
+        <file_path/>
+        <instance_id>08d927e7eba4aa50cbdefceacad0cd10</instance_id>
+        <instance_name>dev314304</instance_name>
+        <name>item_option_new_set_f8a6fb969313261005b6367efaba10d7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set"><item_option_new_set action="INSERT_OR_UPDATE"><create_roles/><description/><display_title>true</display_title><internal_name>shiping_information</internal_name><layout>normal</layout><name/><order>300</order><read_roles/><set_attributes/><sys_class_name>item_option_new_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-14 04:01:55</sys_created_on><sys_id>f8a6fb969313261005b6367efaba10d7</sys_id><sys_mod_count>10</sys_mod_count><sys_name>Shiping Information</sys_name><sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package><sys_policy/><sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope><sys_update_name>item_option_new_set_f8a6fb969313261005b6367efaba10d7</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2025-08-14 04:16:44</sys_updated_on><title>Shiping Information</title><type>one_to_one</type><version>10</version><write_roles/></item_option_new_set></record_update>]]></payload>
+        <payload_hash>915874393</payload_hash>
+        <record_name>Shiping Information</record_name>
+        <reverted_from/>
+        <source>30b2f99c935ba25005b6367efaba107c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-08-14 04:16:44</sys_created_on>
+        <sys_id>77ea3f1e9313261005b6367efaba10a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198a6cb66190000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-14 04:16:44</sys_updated_on>
+        <type>Variable Set</type>
+        <update_guid>fbea3f1eec132610ed7ef1390103fca3</update_guid>
+        <update_guid_history>fbea3f1eec132610ed7ef1390103fca3:915874393,b1aa3bdab11326103d92fd82ef34ea0b:1461379325,eb9afb1e871326104edebde3abf67672:1670077628,af8937da691326103f803719f7956434:1878775931,1c893b1aad1326109a0e62827ff2ae89:2087474234,895933968d13261090e2cd336f8df11e:-1998794759,9b193f9a5c132610054ec31b5e313a2b:-1790096456,e0e8f79a421326109ca47339880ad029:-1581398153,13c7b7d6f2132610ff27760d3f3f4d90:-1372699850,4797739642132610c4d65dfd174b83a7:1108811340,32873b1a79132610063a8917dabc175d:495165016</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Shiping Information">4b2bb7da9313261005b6367efaba1056</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-08-14 04:17:46</sys_created_on>
+        <sys_db_object display_value="" name="item_option_new_set">item_option_new_set</sys_db_object>
+        <sys_id>8020d3db4755438486e9ea21b73ca084</sys_id>
+        <sys_metadata>f8a6fb969313261005b6367efaba10d7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Shiping Information</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_scope_delete display_value="">447b3e640b474124ae5e82f54cbb34a1</sys_scope_delete>
+        <sys_update_name>item_option_new_set_f8a6fb969313261005b6367efaba10d7</sys_update_name>
+        <sys_update_version display_value="item_option_new_set_f8a6fb969313261005b6367efaba10d7">77ea3f1e9313261005b6367efaba10a4</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-14 04:17:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

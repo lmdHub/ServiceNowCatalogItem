@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Request Desktop or Laptop">5fc33510939ba25005b6367efaba1027</sc_cat_item>
+        <sc_category display_value="Hardware Request">1ef231dc935ba25005b6367efaba10e4</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 13:19:19</sys_created_on>
+        <sys_id>73f3f510939ba25005b6367efaba10c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hardware Request.Request Desktop or Laptop</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>sc_cat_item_category_73f3f510939ba25005b6367efaba10c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 13:19:19</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

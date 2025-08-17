@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>300</order>
+        <published_ref/>
+        <question display_value="Shipping location">c65bbb5e9313261005b6367efaba10ff</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-14 04:22:22</sys_created_on>
+        <sys_id>f0fb3f1e9313261005b6367efaba1068</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Other</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>question_choice_f0fb3f1e9313261005b6367efaba1068</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-14 04:22:22</sys_updated_on>
+        <text>Other</text>
+        <value>shio_other</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=f0fb3f1e9313261005b6367efaba1068"/>
+</record_update>

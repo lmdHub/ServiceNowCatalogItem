@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>300</order>
+        <sc_cat_item display_value="Request Desktop or Laptop">5fc33510939ba25005b6367efaba1027</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 20:37:12</sys_created_on>
+        <sys_id>79385f109393e25005b6367efaba103f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Requested Peripherals For Home/Remote Office.Request Desktop or Laptop</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>io_set_item_79385f109393e25005b6367efaba103f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 20:40:26</sys_updated_on>
+        <variable_set display_value="Requested Peripherals For Home/Remote Office">9d765f9c9353e25005b6367efaba1035</variable_set>
+    </io_set_item>
+</record_update>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="DELETE">
+        <create_roles/>
+        <description/>
+        <display_title>true</display_title>
+        <internal_name>requested_peripherals_for_office</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 20:23:11</sys_created_on>
+        <sys_id>f1f4d71c9353e25005b6367efaba103c</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Requested Peripherals For Office</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>item_option_new_set_f1f4d71c9353e25005b6367efaba103c</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-07 20:27:07</sys_updated_on>
+        <title>Requested Peripherals For Office</title>
+        <type>one_to_one</type>
+        <version>7</version>
+        <write_roles/>
+    </item_option_new_set>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</application>
+        <file_path/>
+        <instance_id>08d927e7eba4aa50cbdefceacad0cd10</instance_id>
+        <instance_name>dev314304</instance_name>
+        <name>item_option_new_set_f1f4d71c9353e25005b6367efaba103c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set"><item_option_new_set action="INSERT_OR_UPDATE"><create_roles/><description/><display_title>true</display_title><internal_name>requested_peripherals_for_office</internal_name><layout>normal</layout><name/><order>100</order><read_roles/><set_attributes/><sys_class_name>item_option_new_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-07 20:23:11</sys_created_on><sys_id>f1f4d71c9353e25005b6367efaba103c</sys_id><sys_mod_count>7</sys_mod_count><sys_name>Requested Peripherals For Office</sys_name><sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package><sys_policy/><sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope><sys_update_name>item_option_new_set_f1f4d71c9353e25005b6367efaba103c</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2025-08-07 20:27:07</sys_updated_on><title>Requested Peripherals For Office</title><type>one_to_one</type><version>7</version><write_roles/></item_option_new_set></record_update>]]></payload>
+        <payload_hash>642620113</payload_hash>
+        <record_name>Requested Peripherals For Office</record_name>
+        <reverted_from/>
+        <source>30b2f99c935ba25005b6367efaba107c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-08-07 20:27:07</sys_created_on>
+        <sys_id>9ae5d39c9353e25005b6367efaba1046</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19886374cce0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-07 20:27:07</sys_updated_on>
+        <type>Variable Set</type>
+        <update_guid>12e5d39ce153e25089a4d7a2b8586f46</update_guid>
+        <update_guid_history>12e5d39ce153e25089a4d7a2b8586f46:642620113,d6c59b9c0553e250f2de450978b23ddd:851318416,88b5579c4a53e250585faf8239d5b6c7:1060016719,8b65539ce853e250386a78963abe2137:1268715022,4a45df5cbc53e250174e5abed7b27ca3:1477413325,cb25d71c3453e25006fad34ef4d2aa88:1686111628,7a055b5cd853e2508d55040cedbfaa7c:1894809931,34059b1c3653e250f67625f8caf55c07:672916779</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Requested Peripherals For Office">e067b9d69397e21005b6367efaba107e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-08-13 18:41:59</sys_created_on>
+        <sys_db_object display_value="" name="item_option_new_set">item_option_new_set</sys_db_object>
+        <sys_id>2da74aa64c80425b891832d4f4da3171</sys_id>
+        <sys_metadata>f1f4d71c9353e25005b6367efaba103c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requested Peripherals For Office</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_scope_delete display_value="">447b3e640b474124ae5e82f54cbb34a1</sys_scope_delete>
+        <sys_update_name>item_option_new_set_f1f4d71c9353e25005b6367efaba103c</sys_update_name>
+        <sys_update_version display_value="item_option_new_set_f1f4d71c9353e25005b6367efaba103c">9ae5d39c9353e25005b6367efaba1046</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-13 18:41:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
