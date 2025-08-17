@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1808462_mysdesk.GetCompany</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>GetCompany</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var GetCompany = Class.create();
+GetCompany.prototype = {
+    initialize: function() {},
+
+    test: function(testValue) {
+		gs.info('LD ' + testValue);
+	},
+
+    type: 'GetCompany'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-15 16:17:32</sys_created_on>
+        <sys_id>b3e8273e93d7a61005b6367efaba1093</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>GetCompany</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>sys_script_include_b3e8273e93d7a61005b6367efaba1093</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-15 16:20:08</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</application>
+        <file_path/>
+        <instance_id>08d927e7eba4aa50cbdefceacad0cd10</instance_id>
+        <instance_name>dev314304</instance_name>
+        <name>sys_script_include_b3e8273e93d7a61005b6367efaba1093</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1808462_mysdesk.GetCompany&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;GetCompany&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var GetCompany = Class.create();
+GetCompany.prototype = {
+    initialize: function() {},
+
+    test: function(testValue) {
+		gs.info('LD ' + testValue);
+	},
+
+    type: 'GetCompany'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-15 16:17:32&lt;/sys_created_on&gt;&lt;sys_id&gt;b3e8273e93d7a61005b6367efaba1093&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;GetCompany&lt;/sys_name&gt;&lt;sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk"&gt;bcb2fd1c935ba25005b6367efaba10ed&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="MyServiceDesk"&gt;bcb2fd1c935ba25005b6367efaba10ed&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_b3e8273e93d7a61005b6367efaba1093&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-15 16:20:08&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>284384693</payload_hash>
+        <record_name>GetCompany</record_name>
+        <reverted_from/>
+        <source>30b2f99c935ba25005b6367efaba107c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-15 16:20:08</sys_created_on>
+        <sys_id>8e1ae37e93d7a61005b6367efaba101c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198ae880b310000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-15 16:20:08</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>461ae37e83d7a6108f2b665701b1d01c</update_guid>
+        <update_guid_history>461ae37e83d7a6108f2b665701b1d01c:284384693,d4896fba6ed7a610438184345b610885:-1412720558</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-16 20:02:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>4bba987a212a4384aa0526255ec00d10</sys_id>
+        <sys_metadata>b3e8273e93d7a61005b6367efaba1093</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GetCompany</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_scope_delete display_value="">447b3e640b474124ae5e82f54cbb34a1</sys_scope_delete>
+        <sys_update_name>sys_script_include_b3e8273e93d7a61005b6367efaba1093</sys_update_name>
+        <sys_update_version display_value="sys_script_include_b3e8273e93d7a61005b6367efaba1093">8e1ae37e93d7a61005b6367efaba101c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-16 20:02:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

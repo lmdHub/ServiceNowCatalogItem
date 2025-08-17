@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1808462_mysdesk.AutoPopulate_UserInfo</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>AutoPopulate_UserInfo</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var AutoPopulate_UserInfo = Class.create();
+AutoPopulate_UserInfo.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+    getCompanyAndLocation: function() {
+        var userId = this.getParameter('sysparm_user'); // requested_for sys_id
+        var result = {};
+
+        if (userId) {
+            var userGR = new GlideRecord('sys_user');
+            if (userGR.get(userId)) {
+                // Company
+                if (userGR.company)
+                    result.company = userGR.company.getDisplayValue();
+                else
+                    result.company = "";
+
+                // Location
+                if (userGR.location)
+                    result.location = userGR.location.getDisplayValue();
+                else
+                    result.location = "";
+            }
+        }
+
+        return new JSON().encode(result); // return JSON back to client script
+    },
+
+    type: 'AutoPopulate_UserInfo'
+});
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-16 19:56:43</sys_created_on>
+        <sys_id>97722d5393572a1005b6367efaba10a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AutoPopulate_UserInfo</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>sys_script_include_97722d5393572a1005b6367efaba10a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-16 19:56:43</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</application>
+        <file_path/>
+        <instance_id>08d927e7eba4aa50cbdefceacad0cd10</instance_id>
+        <instance_name>dev314304</instance_name>
+        <name>sys_script_include_97722d5393572a1005b6367efaba10a6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1808462_mysdesk.AutoPopulate_UserInfo&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;AutoPopulate_UserInfo&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var AutoPopulate_UserInfo = Class.create();
+AutoPopulate_UserInfo.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+    getCompanyAndLocation: function() {
+        var userId = this.getParameter('sysparm_user'); // requested_for sys_id
+        var result = {};
+
+        if (userId) {
+            var userGR = new GlideRecord('sys_user');
+            if (userGR.get(userId)) {
+                // Company
+                if (userGR.company)
+                    result.company = userGR.company.getDisplayValue();
+                else
+                    result.company = "";
+
+                // Location
+                if (userGR.location)
+                    result.location = userGR.location.getDisplayValue();
+                else
+                    result.location = "";
+            }
+        }
+
+        return new JSON().encode(result); // return JSON back to client script
+    },
+
+    type: 'AutoPopulate_UserInfo'
+});
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-16 19:56:43&lt;/sys_created_on&gt;&lt;sys_id&gt;97722d5393572a1005b6367efaba10a6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;AutoPopulate_UserInfo&lt;/sys_name&gt;&lt;sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk"&gt;bcb2fd1c935ba25005b6367efaba10ed&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="MyServiceDesk"&gt;bcb2fd1c935ba25005b6367efaba10ed&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_97722d5393572a1005b6367efaba10a6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-16 19:56:43&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-835594590</payload_hash>
+        <record_name>AutoPopulate_UserInfo</record_name>
+        <reverted_from/>
+        <source>30b2f99c935ba25005b6367efaba107c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-16 19:56:45</sys_created_on>
+        <sys_id>8d45e15793572a1005b6367efaba1007</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198b474b9eb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-16 19:56:45</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>8145e157a3572a1014ee2aad6ca59e07</update_guid>
+        <update_guid_history>8145e157a3572a1014ee2aad6ca59e07:-835594590</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-16 20:33:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>1a1fd49167924ca687f37e0a08ae60b9</sys_id>
+        <sys_metadata>97722d5393572a1005b6367efaba10a6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AutoPopulate_UserInfo</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_scope_delete display_value="">447b3e640b474124ae5e82f54cbb34a1</sys_scope_delete>
+        <sys_update_name>sys_script_include_97722d5393572a1005b6367efaba10a6</sys_update_name>
+        <sys_update_version display_value="sys_script_include_97722d5393572a1005b6367efaba10a6">8d45e15793572a1005b6367efaba1007</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-16 20:33:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

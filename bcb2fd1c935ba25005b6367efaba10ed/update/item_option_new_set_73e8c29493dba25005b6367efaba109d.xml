@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="INSERT_OR_UPDATE">
+        <create_roles/>
+        <description/>
+        <display_title>false</display_title>
+        <internal_name>hardware_request2</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>200</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 14:51:29</sys_created_on>
+        <sys_id>73e8c29493dba25005b6367efaba109d</sys_id>
+        <sys_mod_count>76</sys_mod_count>
+        <sys_name>Hardware Request2</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>item_option_new_set_73e8c29493dba25005b6367efaba109d</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-13 20:50:04</sys_updated_on>
+        <title>Hardware Request2</title>
+        <type>one_to_one</type>
+        <version>76</version>
+        <write_roles/>
+    </item_option_new_set>
+</record_update>

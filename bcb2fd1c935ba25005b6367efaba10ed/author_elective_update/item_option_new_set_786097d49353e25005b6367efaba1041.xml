@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="DELETE">
+        <create_roles/>
+        <description/>
+        <display_title>false</display_title>
+        <internal_name>hardware_request3</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>300</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 20:03:55</sys_created_on>
+        <sys_id>786097d49353e25005b6367efaba1041</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>Hardware Request3</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>item_option_new_set_786097d49353e25005b6367efaba1041</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-07 20:19:43</sys_updated_on>
+        <title>Hardware Request3</title>
+        <type>one_to_one</type>
+        <version>27</version>
+        <write_roles/>
+    </item_option_new_set>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</application>
+        <file_path/>
+        <instance_id>08d927e7eba4aa50cbdefceacad0cd10</instance_id>
+        <instance_name>dev314304</instance_name>
+        <name>item_option_new_set_786097d49353e25005b6367efaba1041</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set"><item_option_new_set action="INSERT_OR_UPDATE"><create_roles/><description/><display_title>false</display_title><internal_name>hardware_request3</internal_name><layout>normal</layout><name/><order>300</order><read_roles/><set_attributes/><sys_class_name>item_option_new_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-07 20:03:55</sys_created_on><sys_id>786097d49353e25005b6367efaba1041</sys_id><sys_mod_count>27</sys_mod_count><sys_name>Hardware Request3</sys_name><sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package><sys_policy/><sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope><sys_update_name>item_option_new_set_786097d49353e25005b6367efaba1041</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2025-08-07 20:19:43</sys_updated_on><title>Hardware Request3</title><type>one_to_one</type><version>27</version><write_roles/></item_option_new_set></record_update>]]></payload>
+        <payload_hash>381482212</payload_hash>
+        <record_name>Hardware Request3</record_name>
+        <reverted_from/>
+        <source>30b2f99c935ba25005b6367efaba107c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-08-07 20:19:44</sys_created_on>
+        <sys_id>8e345b1c9353e25005b6367efaba1000</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198863087830000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-07 20:19:44</sys_updated_on>
+        <type>Variable Set</type>
+        <update_guid>06345b1c1f53e250489ba481ad767500</update_guid>
+        <update_guid_history>06345b1c1f53e250489ba481ad767500:381482212,d933d3d8db53e2501d04c233fec69808:590180515,f12313d86453e250feb76dda74aaf458:798878818,351313d82e53e250311e4680998b5e50:1007577121,0203df981053e2506a585dd27b13b84e:1216275424,85f25f98fd53e250e39fca6cce5cdb50:1424973727,30e253985953e25041943b3faa29ca93:1633672030,a6b29798ed53e250df52d2f77033332f:1842370333,ab9297585a53e250f1222f7e2525d412:2138765703,fe7253987753e250d4a64e528e4a95d0:-1947503290,cd629f583853e250aff5f23d6e1eaa3b:-1738804987,72221fd47253e2508f00c4377800a913:-1530106684,4c021b58bc53e25089e409e3468e8a98:-1321408381,c0021b586653e250fc35cd77516ee092:-1112710078,80021b58ab53e25089c6ef84d16de07f:-904011775,08021b589b53e2507b47ad38331cb278:-695313472,48021b58e753e25034d1309d250fff4c:-486615169,7ff11b58df53e250c65a3712e5ca2e45:-277916866,abf1df181b53e250f7c35e767dc12f0f:-239698056,07b193580753e250f70e96442810e0f9:-30999753,6fa153581553e250182d649af119f3b6:177698550,139113d4d653e250b18593aa501f79cc:386396853,ae715f18f953e25076d6d0939fa49757:595095156,476197d4ef53e250c4b40f22702b177a:803793459,54511b181553e250786804cb51c90f0f:1012491762,3e311f94a453e25067dc23826a9001b7:1221190065,96b05fd41053e250b9f3641bce6bf4fc:1429888368,aa90939c4c13e250a7bd740dbf856d0f:-1313847821</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Hardware Request3">62945bd89353e25005b6367efaba10b5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-08-07 20:21:25</sys_created_on>
+        <sys_db_object display_value="" name="item_option_new_set">item_option_new_set</sys_db_object>
+        <sys_id>0bad741e252049e888bd61c4c8b45910</sys_id>
+        <sys_metadata>786097d49353e25005b6367efaba1041</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hardware Request3</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_scope_delete display_value="">447b3e640b474124ae5e82f54cbb34a1</sys_scope_delete>
+        <sys_update_name>item_option_new_set_786097d49353e25005b6367efaba1041</sys_update_name>
+        <sys_update_version display_value="item_option_new_set_786097d49353e25005b6367efaba1041">8e345b1c9353e25005b6367efaba1000</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-07 20:21:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

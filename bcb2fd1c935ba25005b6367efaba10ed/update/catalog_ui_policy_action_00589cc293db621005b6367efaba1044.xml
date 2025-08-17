@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Request Desktop or Laptop">5fc33510939ba25005b6367efaba1027</catalog_item>
+        <catalog_variable>IO:9030d2dc93dba25005b6367efaba10da</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-12 17:08:25</sys_created_on>
+        <sys_id>00589cc293db621005b6367efaba1044</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>select_operating_system</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_00589cc293db621005b6367efaba1044</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-13 20:35:27</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Display for non broken item">c6c0b29c939fa25005b6367efaba10dd</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>select_operating_system</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=00589cc293db621005b6367efaba1044"/>
+</record_update>

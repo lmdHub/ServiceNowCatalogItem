@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item/>
+        <catalog_variable>IO:ac4d391c939ba25005b6367efaba10a2</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>300</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 17:53:54</sys_created_on>
+        <sys_id>32c2ba1093dfa25005b6367efaba1050</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>quantity</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_32c2ba1093dfa25005b6367efaba1050</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 18:20:12</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Display for non broken item">c6c0b29c939fa25005b6367efaba10dd</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>quantity</variable>
+        <variable_set display_value="Hardware Request2">73e8c29493dba25005b6367efaba109d</variable_set>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=32c2ba1093dfa25005b6367efaba1050"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</application>
+        <file_path/>
+        <instance_id>08d927e7eba4aa50cbdefceacad0cd10</instance_id>
+        <instance_name>dev314304</instance_name>
+        <name>catalog_ui_policy_action_32c2ba1093dfa25005b6367efaba1050</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item/><catalog_variable>IO:ac4d391c939ba25005b6367efaba10a2</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><order>300</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-07 17:53:54</sys_created_on><sys_id>32c2ba1093dfa25005b6367efaba1050</sys_id><sys_mod_count>2</sys_mod_count><sys_name>quantity</sys_name><sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package><sys_policy/><sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope><sys_update_name>catalog_ui_policy_action_32c2ba1093dfa25005b6367efaba1050</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-07 18:20:12</sys_updated_on><table/><ui_policy display_value="Display for non broken item">c6c0b29c939fa25005b6367efaba10dd</ui_policy><value/><value_action>ignore</value_action><variable>quantity</variable><variable_set display_value="Hardware Request2">73e8c29493dba25005b6367efaba109d</variable_set><visible>true</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=32c2ba1093dfa25005b6367efaba1050"/></record_update>]]></payload>
+        <payload_hash>1827363824</payload_hash>
+        <record_name>quantity</record_name>
+        <reverted_from/>
+        <source>30b2f99c935ba25005b6367efaba107c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 18:20:12</sys_created_on>
+        <sys_id>5fd83e5893dfa25005b6367efaba106f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19885c319930000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 18:20:12</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>17d83e580edfa250a8097e9bfab7b46f</update_guid>
+        <update_guid_history>17d83e580edfa250a8097e9bfab7b46f:1827363824,9006725459dfa25056706c3c50eadefb:-2144091212,75d2f25030dfa250cb103161f1e805a8:1484329266</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="quantity">2a8d93589393e25005b6367efaba10ce</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 21:00:27</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>1cd9ebe92213490092cccb5df3d1a1a9</sys_id>
+        <sys_metadata>32c2ba1093dfa25005b6367efaba1050</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>quantity</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_scope_delete display_value="">447b3e640b474124ae5e82f54cbb34a1</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_32c2ba1093dfa25005b6367efaba1050</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_32c2ba1093dfa25005b6367efaba1050">5fd83e5893dfa25005b6367efaba106f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 21:00:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

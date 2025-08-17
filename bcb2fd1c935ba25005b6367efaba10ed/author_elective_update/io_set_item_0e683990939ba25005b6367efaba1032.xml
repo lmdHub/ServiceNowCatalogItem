@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>100</order>
+        <sc_cat_item display_value="Request Desktop or Laptop">5fc33510939ba25005b6367efaba1027</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 13:40:31</sys_created_on>
+        <sys_id>0e683990939ba25005b6367efaba1032</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.Request Desktop or Laptop</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>io_set_item_0e683990939ba25005b6367efaba1032</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 13:40:31</sys_updated_on>
+        <variable_set/>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</application>
+        <file_path/>
+        <instance_id>08d927e7eba4aa50cbdefceacad0cd10</instance_id>
+        <instance_name>dev314304</instance_name>
+        <name>io_set_item_0e683990939ba25005b6367efaba1032</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>100</order><sc_cat_item display_value="Request Desktop or Laptop">5fc33510939ba25005b6367efaba1027</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-07 13:40:31</sys_created_on><sys_id>0e683990939ba25005b6367efaba1032</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.Request Desktop or Laptop</sys_name><sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package><sys_policy/><sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope><sys_update_name>io_set_item_0e683990939ba25005b6367efaba1032</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-07 13:40:31</sys_updated_on><variable_set/></io_set_item></record_update>]]></payload>
+        <payload_hash>-1053536654</payload_hash>
+        <record_name>.Request Desktop or Laptop</record_name>
+        <reverted_from/>
+        <source>30b2f99c935ba25005b6367efaba107c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 13:40:32</sys_created_on>
+        <sys_id>ead8f994939ba25005b6367efaba10de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19884c30de50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 13:40:32</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>eed8f994389ba250be27d63de97ab0dd</update_guid>
+        <update_guid_history>eed8f994389ba250be27d63de97ab0dd:-1053536654</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".Request Desktop or Laptop">99393194939ba25005b6367efaba10a3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 13:42:05</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>7131057ec5024825b668de46d08f3259</sys_id>
+        <sys_metadata>0e683990939ba25005b6367efaba1032</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.Request Desktop or Laptop</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_scope_delete display_value="">447b3e640b474124ae5e82f54cbb34a1</sys_scope_delete>
+        <sys_update_name>io_set_item_0e683990939ba25005b6367efaba1032</sys_update_name>
+        <sys_update_version display_value="io_set_item_0e683990939ba25005b6367efaba1032">ead8f994939ba25005b6367efaba10de</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 13:42:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
