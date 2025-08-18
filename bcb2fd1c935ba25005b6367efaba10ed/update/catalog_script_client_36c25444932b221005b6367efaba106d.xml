@@ -8,47 +8,59 @@
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
         <cat_item display_value="Request Desktop or Laptop">5fc33510939ba25005b6367efaba1027</cat_item>
-        <cat_variable/>
+        <cat_variable>IO:0b78982693d3261005b6367efaba1053</cat_variable>
         <condition/>
         <description/>
         <field/>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Choose a manager - OnLoad</name>
+        <name>Mobile Phone# formatter</name>
         <order/>
         <published_ref/>
-        <script><![CDATA[function onLoad() {
-   //Type appropriate comment here, and begin script below
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue === '') {
+        return;
+    }
 
-    var mger = g_form.getValue('manager');
-    
-    if (mger === '') {
-        // If the triggering field has no value
-        message = 'You do not have a manager assigned, please choose one.';
-        g_form.setReadOnly('manager', false);
-        g_form.setMandatory('manager', true);
-        g_form.showFieldMsg('manager', message, 'info');
+    // Remove all non-numeric characters
+    var digits = newValue.replace(/\D/g, '');
+
+    // Only format if at least 10 digits are entered
+
+	
+	if( digits.length === 0){
+		return;
 	}
+
+    else if (digits.length === 10) {
+        var formatted = "(" + digits.substring(0, 3) + ") " + digits.substring(3, 6) + "-" + digits.substring(6, 10);
+        g_form.setValue('phone_num', formatted);}
    
-}]]></script>
+	
+	  else {
+		var message = 'Please enter a 10 digit phone numer! ex: (123)456-7890';
+        g_form.showFieldMsg('phone_num', message, 'error');
+    }
+}
+]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-08-17 18:26:25</sys_created_on>
+        <sys_created_on>2025-08-18 22:03:24</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>89a95ee7935f6a1005b6367efaba1035</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Choose a manager - OnLoad</sys_name>
+        <sys_id>36c25444932b221005b6367efaba106d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Mobile Phone# formatter</sys_name>
         <sys_overrides/>
         <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
         <sys_policy/>
         <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
-        <sys_update_name>catalog_script_client_89a95ee7935f6a1005b6367efaba1035</sys_update_name>
+        <sys_update_name>catalog_script_client_36c25444932b221005b6367efaba106d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-17 18:26:25</sys_updated_on>
+        <sys_updated_on>2025-08-18 22:07:48</sys_updated_on>
         <table/>
-        <type>onLoad</type>
+        <type>onChange</type>
         <ui_type>10</ui_type>
         <va_supported>true</va_supported>
         <variable_set/>
