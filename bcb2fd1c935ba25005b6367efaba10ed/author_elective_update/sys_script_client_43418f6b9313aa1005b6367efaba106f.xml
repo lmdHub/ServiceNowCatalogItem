@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>user_name</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>AutoPopulate_UserDetails</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   var userDetails = g_form.getValue('user_id');
+
+   var ga = new GlideAjax (userDetails);
+   ga.addParam('sysparm_name', 'getUserdetails');
+   ga.addParam('sysparm_value', userDetails);
+   ga.getXML(callback);
+
+   function callback(response){
+	var answer = response.responseXML.documentElement.getAttribute('answer');
+	var test = answer.split(',');
+
+	console.log(test[1]);
+
+	g_form.setValue('email_address', test[0]);
+	g_form.setValue('company_name', test[1]);
+	g_form.setValue('comp_location', test[2]);
+   }
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-17 21:38:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>43418f6b9313aa1005b6367efaba106f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>AutoPopulate_UserDetails</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>sys_script_client_43418f6b9313aa1005b6367efaba106f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-17 22:01:45</sys_updated_on>
+        <table>sys_user</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</application>
+        <file_path/>
+        <instance_id>08d927e7eba4aa50cbdefceacad0cd10</instance_id>
+        <instance_name>dev314304</instance_name>
+        <name>sys_script_client_43418f6b9313aa1005b6367efaba106f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;user_name&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;AutoPopulate_UserDetails&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   var userDetails = g_form.getValue('user_id');
+
+   var ga = new GlideAjax (userDetails);
+   ga.addParam('sysparm_name', 'getUserdetails');
+   ga.addParam('sysparm_value', userDetails);
+   ga.getXML(callback);
+
+   function callback(response){
+	var answer = response.responseXML.documentElement.getAttribute('answer');
+	var test = answer.split(',');
+
+	console.log(test[1]);
+
+	g_form.setValue('email_address', test[0]);
+	g_form.setValue('company_name', test[1]);
+	g_form.setValue('comp_location', test[2]);
+   }
+
+   //Type appropriate comment here, and begin script below
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-17 21:38:01&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;43418f6b9313aa1005b6367efaba106f&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;AutoPopulate_UserDetails&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk"&gt;bcb2fd1c935ba25005b6367efaba10ed&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MyServiceDesk"&gt;bcb2fd1c935ba25005b6367efaba10ed&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_43418f6b9313aa1005b6367efaba106f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-17 22:01:45&lt;/sys_updated_on&gt;&lt;table&gt;sys_user&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>508200960</payload_hash>
+        <record_name>AutoPopulate_UserDetails</record_name>
+        <reverted_from/>
+        <source>8c23e223939f6a1005b6367efaba10ca</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-17 22:01:45</sys_created_on>
+        <sys_id>427bc3279353aa1005b6367efaba1029</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198ba0d889a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-17 22:01:45</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>c67bc327e353aa10ce1ef2a8611a6528</update_guid>
+        <update_guid_history>c67bc327e353aa10ce1ef2a8611a6528:508200960,8606cbef1813aa106c8cb690177a88b8:-183434339</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 04:58:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>566568de9e28475aa606e9c4f9c56b69</sys_id>
+        <sys_metadata>43418f6b9313aa1005b6367efaba106f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AutoPopulate_UserDetails</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_parent display_value="Sys User">ff33eb3304312210559073c06a02f7a6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_scope_delete display_value="">447b3e640b474124ae5e82f54cbb34a1</sys_scope_delete>
+        <sys_update_name>sys_script_client_43418f6b9313aa1005b6367efaba106f</sys_update_name>
+        <sys_update_version display_value="sys_script_client_43418f6b9313aa1005b6367efaba106f">427bc3279353aa1005b6367efaba1029</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 04:58:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

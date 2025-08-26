@@ -13,17 +13,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-14 04:24:35</sys_created_on>
         <sys_id>346cff9e9313261005b6367efaba10be</sys_id>
-        <sys_mod_count>48</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_name>Shipping Infromation</sys_name>
         <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
         <sys_policy/>
         <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
         <sys_update_name>item_option_new_set_346cff9e9313261005b6367efaba10be</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-08-17 17:57:06</sys_updated_on>
+        <sys_updated_on>2025-08-26 18:27:55</sys_updated_on>
         <title>Shipping Infromation</title>
         <type>one_to_one</type>
-        <version>48</version>
+        <version>50</version>
         <write_roles/>
     </item_option_new_set>
 </record_update>
