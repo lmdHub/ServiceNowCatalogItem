@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Request Desktop or Laptop">5fc33510939ba25005b6367efaba1027</catalog_item>
+        <catalog_variable>IO:8b0d73de9313261005b6367efaba10f0</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-14 05:49:09</sys_created_on>
+        <sys_id>3100906a9393261005b6367efaba10d6</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>appartment_num</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_3100906a9393261005b6367efaba10d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-14 05:58:42</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Display Shiping information fileds">938f88e69393261005b6367efaba10ce</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>appartment_num</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=3100906a9393261005b6367efaba10d6"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</application>
+        <file_path/>
+        <instance_id>08d927e7eba4aa50cbdefceacad0cd10</instance_id>
+        <instance_name>dev314304</instance_name>
+        <name>catalog_ui_policy_action_3100906a9393261005b6367efaba10d6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Request Desktop or Laptop">5fc33510939ba25005b6367efaba1027</catalog_item><catalog_variable>IO:8b0d73de9313261005b6367efaba10f0</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-14 05:49:09</sys_created_on><sys_id>3100906a9393261005b6367efaba10d6</sys_id><sys_mod_count>3</sys_mod_count><sys_name>appartment_num</sys_name><sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package><sys_policy/><sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope><sys_update_name>catalog_ui_policy_action_3100906a9393261005b6367efaba10d6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-14 05:58:42</sys_updated_on><table/><ui_policy display_value="Display Shiping information fileds">938f88e69393261005b6367efaba10ce</ui_policy><value/><value_action>ignore</value_action><variable>appartment_num</variable><variable_set/><visible>true</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=3100906a9393261005b6367efaba10d6"/></record_update>]]></payload>
+        <payload_hash>477169813</payload_hash>
+        <record_name>appartment_num</record_name>
+        <reverted_from/>
+        <source>30b2f99c935ba25005b6367efaba107c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-14 05:58:42</sys_created_on>
+        <sys_id>2942d8ea9393261005b6367efaba10a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198a728c04a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-14 05:58:42</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>ed42d8eab5932610a4ac529197226aa0</update_guid>
+        <update_guid_history>ed42d8eab5932610a4ac529197226aa0:477169813,8202902e429326103c95187ab5996084:-573611126,17f1502e19932610c7a9b2e05167575b:-1661491815,7d10d06aea932610c676ae2f52fc61d9:1502646376</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="appartment_num">f495797293e7261005b6367efaba1033</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-27 18:06:44</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>3f72327864b847d2acf6130701905bf9</sys_id>
+        <sys_metadata>3100906a9393261005b6367efaba10d6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>appartment_num</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_scope_delete display_value="">447b3e640b474124ae5e82f54cbb34a1</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_3100906a9393261005b6367efaba10d6</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_3100906a9393261005b6367efaba10d6">2942d8ea9393261005b6367efaba10a1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-27 18:06:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

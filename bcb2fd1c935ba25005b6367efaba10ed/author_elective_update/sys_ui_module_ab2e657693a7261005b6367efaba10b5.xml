@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Asset">4ba205ea93afa21005b6367efaba10af</application>
+        <filter/>
+        <name>strings</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>itil</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-27 17:34:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ab2e657693a7261005b6367efaba10b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>strings</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>sys_ui_module_ab2e657693a7261005b6367efaba10b5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-27 17:34:26</sys_updated_on>
+        <table>x_1808462_mysdesk_string</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</application>
+        <file_path/>
+        <instance_id>08d927e7eba4aa50cbdefceacad0cd10</instance_id>
+        <instance_name>dev314304</instance_name>
+        <name>sys_ui_module_ab2e657693a7261005b6367efaba10b5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Asset">4ba205ea93afa21005b6367efaba10af</application><filter/><name>strings</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>itil</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-27 17:34:26</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ab2e657693a7261005b6367efaba10b5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>strings</sys_name><sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package><sys_policy/><sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope><sys_update_name>sys_ui_module_ab2e657693a7261005b6367efaba10b5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-27 17:34:26</sys_updated_on><table>x_1808462_mysdesk_string</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>1021570029</payload_hash>
+        <record_name>strings</record_name>
+        <reverted_from/>
+        <source>8c23e223939f6a1005b6367efaba10ca</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-27 17:34:26</sys_created_on>
+        <sys_id>ab2ea1f693a7261005b6367efaba103d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198ec9861c20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-27 17:34:26</sys_updated_on>
+        <type>Module</type>
+        <update_guid>6f2ea1f68ea726104004322513cd533c</update_guid>
+        <update_guid_history>6f2ea1f68ea726104004322513cd533c:1021570029</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-27 17:40:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>3eac7317593d4fde94b93ed6583e74d1</sys_id>
+        <sys_metadata>ab2e657693a7261005b6367efaba10b5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>strings</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_scope_delete display_value="">447b3e640b474124ae5e82f54cbb34a1</sys_scope_delete>
+        <sys_update_name>sys_ui_module_ab2e657693a7261005b6367efaba10b5</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_ab2e657693a7261005b6367efaba10b5">ab2ea1f693a7261005b6367efaba103d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-27 17:40:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

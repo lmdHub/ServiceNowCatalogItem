@@ -8,68 +8,73 @@
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
         <cat_item display_value="Request Desktop or Laptop">5fc33510939ba25005b6367efaba1027</cat_item>
-        <cat_variable>IO:7d5e73529353261005b6367efaba104b</cat_variable>
+        <cat_variable>IO:06adbfde9313261005b6367efaba1015</cat_variable>
         <condition/>
         <description/>
         <field/>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Auto Populate CityStateZipAPI</name>
+        <name>Auto Populate CityStateWithZipAPI</name>
         <order/>
         <published_ref/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
-//    if (isLoading || newValue == '') {
-//       return;
-//    }
+    // if (isLoading || !newValue) {
+    //     return;
+    // }
 
-    // 1. Populate State dropdown onLoad
-    var ga = new GlideAjax('StateCityZipAPI');
-    ga.addParam('sysparm_name', 'getStates');
-    ga.getXMLAnswer(function(response) {
-        var states = JSON.parse(response);
-        g_form.clearOptions('state');
-        g_form.addOption('state', '', '-- Select State --');
-        states.forEach(function(s) {
-            g_form.addOption('state', s.name, s.name);
+	var zip = g_form.getValue('zip_code');
+
+    console.log('ZIP Entered: ' + newValue);
+
+    var ga = new GlideAjax('ZipCodeLookup');
+    ga.addParam('sysparm_name', 'getCityStateFromZip');
+    ga.addParam('sysparm_zipcode', zip);
+
+
+    if (zip === '' || zip.length != 5) {
+
+        g_form.setDisplay('street_address', false);
+        g_form.setDisplay('appartment_num', false);
+        g_form.setDisplay('city', false);
+        g_form.setDisplay('state', false);
+
+        var message = 'Enter a five digit zip code';
+
+        g_form.showFieldMsg('zip_code', message, 'info');
+
+    } else {
+        g_form.setDisplay('street_address', true);
+        g_form.setDisplay('appartment_num', true);
+        g_form.setDisplay('city', true);
+        g_form.setReadOnly('city', true);
+        g_form.setDisplay('state', true);
+        g_form.setReadOnly('state', true);
+
+
+        ga.getXMLAnswer(function(response) {
+            console.log('Response from Script Include: ' + response);
+
+            try {
+                var result = JSON.parse(response);
+
+                if (result.status === 'success') {
+                    g_form.setValue('city', result.city);
+                    g_form.setValue('state', result.state);
+                    console.log('City set to: ' + result.city + ', State set to: ' + result.state);
+                } else {
+                    g_form.clearValue('city');
+                    g_form.clearValue('state');
+                    alert('Could not fetch City/State: ' + (result.error || 'Unknown error'));
+                }
+
+            } catch (err) {
+                console.error('Failed to parse response: ' + err);
+                g_form.clearValue('city');
+                g_form.clearValue('state');
+            }
         });
-    });
-
-    // 2. Attach onchange listener for State
-    g_form.setOnChange('state', function(control, oldValue, newValue, isLoading) {
-        if (isLoading || !newValue) {
-            g_form.clearOptions('city');
-            return;
-        }
-
-        var gaCities = new GlideAjax('StateCityZipAPI');
-        gaCities.addParam('sysparm_name', 'getCities');
-        gaCities.addParam('sysparm_state', newValue);
-        gaCities.getXMLAnswer(function(response) {
-            var cities = JSON.parse(response);
-            g_form.clearOptions('city');
-            g_form.addOption('city', '', '-- Select City --');
-            cities.forEach(function(c) {
-                g_form.addOption('city', c.name, c.name);
-            });
-        });
-    });
-
-    // 3. Attach onchange listener for City
-    g_form.setOnChange('city', function(control, oldValue, newValue, isLoading) {
-        if (isLoading || !newValue || !g_form.getValue('state')) return;
-
-        var city = newValue;
-        var state = g_form.getValue('state');
-
-        var gaZip = new GlideAjax('StateCityZipAPI');
-        gaZip.addParam('sysparm_name', 'getZip');
-        gaZip.addParam('sysparm_city', city);
-        gaZip.addParam('sysparm_state_name', state);
-        gaZip.getXMLAnswer(function(zip) {
-            g_form.setValue('zip_code', zip || '');
-        });
-    });
+    }
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -77,18 +82,18 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cd3eacae932fa21005b6367efaba103b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Auto Populate CityStateZipAPI</sys_name>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Auto Populate CityStateWithZipAPI</sys_name>
         <sys_overrides/>
         <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
         <sys_policy/>
         <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
         <sys_update_name>catalog_script_client_cd3eacae932fa21005b6367efaba103b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-26 18:21:58</sys_updated_on>
+        <sys_updated_on>2025-08-27 19:35:08</sys_updated_on>
         <table/>
         <type>onChange</type>
-        <ui_type>0</ui_type>
+        <ui_type>10</ui_type>
         <va_supported>true</va_supported>
         <variable_set/>
         <view/>
