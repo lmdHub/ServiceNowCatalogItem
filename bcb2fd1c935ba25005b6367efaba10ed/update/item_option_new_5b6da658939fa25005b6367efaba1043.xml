@@ -38,13 +38,13 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>request_type</name>
         <not_available_conversation>false</not_available_conversation>
-        <order>120</order>
+        <order>50</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
@@ -79,14 +79,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-07 17:30:55</sys_created_on>
         <sys_id>5b6da658939fa25005b6367efaba1043</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Request Type</sys_name>
         <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
         <sys_policy/>
         <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
         <sys_update_name>item_option_new_5b6da658939fa25005b6367efaba1043</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-13 20:50:04</sys_updated_on>
+        <sys_updated_on>2025-08-27 14:56:14</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-27 17:44:18</sys_created_on>
+        <sys_id>4070b5ba93a7261005b6367efaba10a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1808462_mysdesk_test.x_1808462_mysdesk.test_user</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_security_acl display_value="x_1808462_mysdesk_test">4c70b5ba93a7261005b6367efaba108b</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_4070b5ba93a7261005b6367efaba10a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-27 17:44:18</sys_updated_on>
+        <sys_user_role display_value="x_1808462_mysdesk.test_user" name="x_1808462_mysdesk.test_user">4220f97a93a7261005b6367efaba103f</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</application>
+        <file_path/>
+        <instance_id>08d927e7eba4aa50cbdefceacad0cd10</instance_id>
+        <instance_name>dev314304</instance_name>
+        <name>sys_security_acl_role_4070b5ba93a7261005b6367efaba10a8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-27 17:44:18</sys_created_on><sys_id>4070b5ba93a7261005b6367efaba10a8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1808462_mysdesk_test.x_1808462_mysdesk.test_user</sys_name><sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package><sys_policy/><sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope><sys_security_acl display_value="x_1808462_mysdesk_test">4c70b5ba93a7261005b6367efaba108b</sys_security_acl><sys_update_name>sys_security_acl_role_4070b5ba93a7261005b6367efaba10a8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-27 17:44:18</sys_updated_on><sys_user_role display_value="x_1808462_mysdesk.test_user" name="x_1808462_mysdesk.test_user">4220f97a93a7261005b6367efaba103f</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1231260438</payload_hash>
+        <record_name>x_1808462_mysdesk_test.x_1808462_mysdesk.test_user</record_name>
+        <reverted_from/>
+        <source>8c23e223939f6a1005b6367efaba10ca</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-27 17:44:18</sys_created_on>
+        <sys_id>c070b5ba93a7261005b6367efaba10ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198eca16b0a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-27 17:44:18</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>c470b5ba46a726103f0e2458355344aa</update_guid>
+        <update_guid_history>c470b5ba46a726103f0e2458355344aa:-1231260438</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1808462_mysdesk_test.x_1808462_mysdesk.test_user">cce0b1fa93a7261005b6367efaba10ab</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-27 17:46:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>2242dcf52a0b4d5a850722bff1847d64</sys_id>
+        <sys_metadata>4070b5ba93a7261005b6367efaba10a8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1808462_mysdesk_test.x_1808462_mysdesk.test_user</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_parent display_value="">4c70b5ba93a7261005b6367efaba108b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_scope_delete display_value="">447b3e640b474124ae5e82f54cbb34a1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_4070b5ba93a7261005b6367efaba10a8</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_4070b5ba93a7261005b6367efaba10a8">c070b5ba93a7261005b6367efaba10ab</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-27 17:46:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

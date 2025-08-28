@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="peripherals_requested" label="Peripherals Requested" language="en" table="x_1808462_mysdesk_hardware_requested">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>peripherals_requested</element>
+            <help/>
+            <hint/>
+            <label>Peripherals Requested</label>
+            <language>en</language>
+            <name>x_1808462_mysdesk_hardware_requested</name>
+            <plural>Peripherals Requested</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-26 19:45:52</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Peripherals Requested</sys_name>
+            <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+            <sys_update_name>sys_documentation_x_1808462_mysdesk_hardware_requested_peripherals_requested_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-26 19:45:52</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

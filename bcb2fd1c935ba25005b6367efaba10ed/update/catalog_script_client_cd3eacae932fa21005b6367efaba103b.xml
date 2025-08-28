@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Request Desktop or Laptop">5fc33510939ba25005b6367efaba1027</cat_item>
+        <cat_variable>IO:06adbfde9313261005b6367efaba1015</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Auto Populate CityStateWithZipAPI</name>
+        <order/>
+        <published_ref/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    // if (isLoading || !newValue) {
+    //     return;
+    // }
+
+	var zip = g_form.getValue('zip_code');
+
+    console.log('ZIP Entered: ' + newValue);
+
+    var ga = new GlideAjax('ZipCodeLookup');
+    ga.addParam('sysparm_name', 'getCityStateFromZip');
+    ga.addParam('sysparm_zipcode', zip);
+
+
+    if (zip === '' || zip.length != 5) {
+
+        g_form.setDisplay('street_address', false);
+        g_form.setDisplay('appartment_num', false);
+        g_form.setDisplay('city', false);
+        g_form.setDisplay('state', false);
+
+        var message = 'Enter a five digit zip code';
+
+        g_form.showFieldMsg('zip_code', message, 'info');
+
+    } else {
+        g_form.setDisplay('street_address', true);
+        g_form.setDisplay('appartment_num', true);
+        g_form.setDisplay('city', true);
+        g_form.setReadOnly('city', true);
+        g_form.setDisplay('state', true);
+        g_form.setReadOnly('state', true);
+
+
+        ga.getXMLAnswer(function(response) {
+            console.log('Response from Script Include: ' + response);
+
+            try {
+                var result = JSON.parse(response);
+
+                if (result.status === 'success') {
+                    g_form.setValue('city', result.city);
+                    g_form.setValue('state', result.state);
+                    console.log('City set to: ' + result.city + ', State set to: ' + result.state);
+                } else {
+                    g_form.clearValue('city');
+                    g_form.clearValue('state');
+                    alert('Could not fetch City/State: ' + (result.error || 'Unknown error'));
+                }
+
+            } catch (err) {
+                console.error('Failed to parse response: ' + err);
+                g_form.clearValue('city');
+                g_form.clearValue('state');
+            }
+        });
+    }
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-26 18:20:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cd3eacae932fa21005b6367efaba103b</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Auto Populate CityStateWithZipAPI</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>catalog_script_client_cd3eacae932fa21005b6367efaba103b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-27 19:35:08</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+</record_update>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="test">ce20f97a93a7261005b6367efaba1045</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>tests</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1808462_mysdesk_test</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_1808462_mysdesk.test_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-27 17:44:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4c70b1ba93a7261005b6367efaba1050</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tests</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>sys_app_module_4c70b1ba93a7261005b6367efaba1050</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-27 17:44:18</sys_updated_on>
+        <timeline_page/>
+        <title>tests</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</application>
+        <file_path/>
+        <instance_id>08d927e7eba4aa50cbdefceacad0cd10</instance_id>
+        <instance_name>dev314304</instance_name>
+        <name>sys_app_module_4c70b1ba93a7261005b6367efaba1050</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="test">ce20f97a93a7261005b6367efaba1045</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>tests</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1808462_mysdesk_test</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_1808462_mysdesk.test_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-27 17:44:18</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4c70b1ba93a7261005b6367efaba1050</sys_id><sys_mod_count>0</sys_mod_count><sys_name>tests</sys_name><sys_overrides/><sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package><sys_policy/><sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope><sys_update_name>sys_app_module_4c70b1ba93a7261005b6367efaba1050</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-27 17:44:18</sys_updated_on><timeline_page/><title>tests</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-880771717</payload_hash>
+        <record_name>tests</record_name>
+        <reverted_from/>
+        <source>8c23e223939f6a1005b6367efaba10ca</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-27 17:44:18</sys_created_on>
+        <sys_id>c470b1ba93a7261005b6367efaba1053</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198eca169a80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-27 17:44:18</sys_updated_on>
+        <type>Module</type>
+        <update_guid>c870b1ba95a72610c4cf248230df9652</update_guid>
+        <update_guid_history>c870b1ba95a72610c4cf248230df9652:-880771717</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="tests">1ce0b1fa93a7261005b6367efaba10e6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-27 17:46:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>8ead035e11d34e829acbd1b3d6b56184</sys_id>
+        <sys_metadata>4c70b1ba93a7261005b6367efaba1050</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tests</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_scope_delete display_value="">447b3e640b474124ae5e82f54cbb34a1</sys_scope_delete>
+        <sys_update_name>sys_app_module_4c70b1ba93a7261005b6367efaba1050</sys_update_name>
+        <sys_update_version display_value="sys_app_module_4c70b1ba93a7261005b6367efaba1050">c470b1ba93a7261005b6367efaba1053</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-27 17:46:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

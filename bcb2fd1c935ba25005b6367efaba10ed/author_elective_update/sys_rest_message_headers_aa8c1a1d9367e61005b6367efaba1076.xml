@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_headers">
+    <sys_rest_message_headers action="DELETE">
+        <name>accept</name>
+        <rest_message display_value="">0e8c52dd9367e61005b6367efaba109b</rest_message>
+        <sys_class_name>sys_rest_message_headers</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 05:14:58</sys_created_on>
+        <sys_id>aa8c1a1d9367e61005b6367efaba1076</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>accept</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>sys_rest_message_headers_aa8c1a1d9367e61005b6367efaba1076</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 05:14:58</sys_updated_on>
+        <value>application/json</value>
+    </sys_rest_message_headers>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</application>
+        <file_path/>
+        <instance_id>08d927e7eba4aa50cbdefceacad0cd10</instance_id>
+        <instance_name>dev314304</instance_name>
+        <name>sys_rest_message_headers_aa8c1a1d9367e61005b6367efaba1076</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_headers"><sys_rest_message_headers action="INSERT_OR_UPDATE"><name>accept</name><rest_message display_value="">0e8c52dd9367e61005b6367efaba109b</rest_message><sys_class_name>sys_rest_message_headers</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-23 05:14:58</sys_created_on><sys_id>aa8c1a1d9367e61005b6367efaba1076</sys_id><sys_mod_count>0</sys_mod_count><sys_name>accept</sys_name><sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package><sys_policy/><sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope><sys_update_name>sys_rest_message_headers_aa8c1a1d9367e61005b6367efaba1076</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-23 05:14:58</sys_updated_on><value>application/json</value></sys_rest_message_headers></record_update>]]></payload>
+        <payload_hash>-961010074</payload_hash>
+        <record_name>accept</record_name>
+        <reverted_from/>
+        <source>8c23e223939f6a1005b6367efaba10ca</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 05:14:58</sys_created_on>
+        <sys_id>a89e961193a7e61005b6367efaba10c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198d559f2050000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 05:14:58</sys_updated_on>
+        <type>HTTP Headers</type>
+        <update_guid>ac9e961112a7e610aac79851659eb4c1</update_guid>
+        <update_guid_history>ac9e961112a7e610aac79851659eb4c1:-961010074</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-27 03:22:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_headers">sys_rest_message_headers</sys_db_object>
+        <sys_id>3450d6c6230e4d9e844c228681cfe044</sys_id>
+        <sys_metadata>aa8c1a1d9367e61005b6367efaba1076</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>accept</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_scope_delete display_value="">447b3e640b474124ae5e82f54cbb34a1</sys_scope_delete>
+        <sys_update_name>sys_rest_message_headers_aa8c1a1d9367e61005b6367efaba1076</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_headers_aa8c1a1d9367e61005b6367efaba1076">a89e961193a7e61005b6367efaba10c2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-27 03:22:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
