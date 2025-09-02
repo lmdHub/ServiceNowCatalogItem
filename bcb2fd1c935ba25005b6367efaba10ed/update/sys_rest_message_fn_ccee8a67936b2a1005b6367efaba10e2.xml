@@ -5,30 +5,30 @@
         <basic_auth_profile/>
         <basic_auth_user/>
         <content>{&#13;
-  "quantity": 3&#13;
+  "quantity": 1&#13;
 }</content>
-        <function_name>Default POST</function_name>
+        <function_name>Default  POST</function_name>
         <http_method>post</http_method>
         <lock>false</lock>
         <oauth2_profile/>
         <protocol_name/>
-        <qualified_name>CreateOrder API [ Default POST ]</qualified_name>
-        <rest_endpoint>http://localhost:5500/api/v1/orders/</rest_endpoint>
-        <rest_message display_value="CreateOrder API">bae35a8393af661005b6367efaba10e2</rest_message>
+        <qualified_name>CreateOrder API [ Default  POST ]</qualified_name>
+        <rest_endpoint>http://192.168.56.10:5500/api/v1/orders/</rest_endpoint>
+        <rest_message display_value="CreateOrder API">1fbe4a67936b2a1005b6367efaba10db</rest_message>
         <sys_class_name>sys_rest_message_fn</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-08-28 14:58:26</sys_created_on>
-        <sys_id>1c141acf936f661005b6367efaba1001</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Default POST</sys_name>
+        <sys_created_on>2025-08-30 03:52:43</sys_created_on>
+        <sys_id>ccee8a67936b2a1005b6367efaba10e2</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Default  POST</sys_name>
         <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
         <sys_policy/>
         <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
-        <sys_update_name>sys_rest_message_fn_1c141acf936f661005b6367efaba1001</sys_update_name>
+        <sys_update_name>sys_rest_message_fn_ccee8a67936b2a1005b6367efaba10e2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-28 15:08:50</sys_updated_on>
+        <sys_updated_on>2025-08-30 17:40:19</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
-        <use_mid_server/>
+        <use_mid_server display_value="WMID Server">2968cdeb93efe61005b6367efaba10a1</use_mid_server>
         <use_mutual_auth>false</use_mutual_auth>
     </sys_rest_message_fn>
 </record_update>

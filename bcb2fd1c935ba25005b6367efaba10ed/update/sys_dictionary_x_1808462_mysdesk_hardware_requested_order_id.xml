@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="item_serial_number" table="x_1808462_mysdesk_hardware_requested">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="order_id" table="x_1808462_mysdesk_hardware_requested">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -13,7 +13,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Item Serial Number</column_label>
+        <column_label>Order ID</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -26,7 +26,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>item_serial_number</element>
+        <element>order_id</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -34,11 +34,11 @@
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>500</max_length>
+        <max_length>50</max_length>
         <name>x_1808462_mysdesk_hardware_requested</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -51,14 +51,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-08-27 12:47:46</sys_created_on>
-        <sys_name>Item Serial Number</sys_name>
+        <sys_created_on>2025-09-02 15:36:20</sys_created_on>
+        <sys_name>Order ID</sys_name>
         <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
         <sys_policy/>
         <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
-        <sys_update_name>sys_dictionary_x_1808462_mysdesk_hardware_requested_item_serial_number</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1808462_mysdesk_hardware_requested_order_id</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-02 15:36:28</sys_updated_on>
+        <sys_updated_on>2025-09-02 15:36:20</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
