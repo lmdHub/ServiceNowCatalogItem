@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ldap_ou_config">
+    <ldap_ou_config action="DELETE">
+        <active>true</active>
+        <default_values/>
+        <filter>(objectClass=group)</filter>
+        <map/>
+        <name>CorpGroups</name>
+        <ou>OU=CorpGroups</ou>
+        <query_field>sAMAccountName</query_field>
+        <server display_value="WIN-SERVER">b848f685933f225005b6367efaba101c</server>
+        <sys_class_name>ldap_ou_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-04 00:05:25</sys_created_on>
+        <sys_id>dd6a0f8193bf225005b6367efaba1042</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>CorpGroups</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>ldap_ou_config_dd6a0f8193bf225005b6367efaba1042</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-04 00:06:36</sys_updated_on>
+        <table>sys_user_group</table>
+    </ldap_ou_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</application>
+        <file_path/>
+        <instance_id>08d927e7eba4aa50cbdefceacad0cd10</instance_id>
+        <instance_name>dev314304</instance_name>
+        <name>ldap_ou_config_dd6a0f8193bf225005b6367efaba1042</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ldap_ou_config"><ldap_ou_config action="INSERT_OR_UPDATE"><active>true</active><default_values/><filter>(objectClass=group)</filter><map/><name>CorpGroups</name><ou>OU=CorpGroups</ou><query_field>sAMAccountName</query_field><server display_value="WIN-SERVER">b848f685933f225005b6367efaba101c</server><sys_class_name>ldap_ou_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-04 00:05:25</sys_created_on><sys_id>dd6a0f8193bf225005b6367efaba1042</sys_id><sys_mod_count>2</sys_mod_count><sys_name>CorpGroups</sys_name><sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package><sys_policy/><sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope><sys_update_name>ldap_ou_config_dd6a0f8193bf225005b6367efaba1042</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-04 00:06:36</sys_updated_on><table>sys_user_group</table></ldap_ou_config></record_update>]]></payload>
+        <payload_hash>-1060734684</payload_hash>
+        <record_name>CorpGroups</record_name>
+        <reverted_from/>
+        <source>8c23e223939f6a1005b6367efaba10ca</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-04 00:06:36</sys_created_on>
+        <sys_id>ec1b8bc193bf225005b6367efaba105c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199120bf1bb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-04 00:06:36</sys_updated_on>
+        <type>LDAP OU Definition</type>
+        <update_guid>641b8bc16cbf225072ac052b3fd5ba5c</update_guid>
+        <update_guid_history>641b8bc16cbf225072ac052b3fd5ba5c:-1060734684,dfeac30120bf2250a65ea1e1b765af94:1132798564,1bcacb011fbf2250981f66d0d560fa0c:-1003190949</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="CorpGroups">3fc9f555933f625005b6367efaba1047</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-04 12:50:03</sys_created_on>
+        <sys_db_object display_value="" name="ldap_ou_config">ldap_ou_config</sys_db_object>
+        <sys_id>67e854cb2abe4acc896cc6d0026e5eb1</sys_id>
+        <sys_metadata>dd6a0f8193bf225005b6367efaba1042</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CorpGroups</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_scope_delete display_value="">447b3e640b474124ae5e82f54cbb34a1</sys_scope_delete>
+        <sys_update_name>ldap_ou_config_dd6a0f8193bf225005b6367efaba1042</sys_update_name>
+        <sys_update_version display_value="ldap_ou_config_dd6a0f8193bf225005b6367efaba1042">ec1b8bc193bf225005b6367efaba105c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-04 12:50:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

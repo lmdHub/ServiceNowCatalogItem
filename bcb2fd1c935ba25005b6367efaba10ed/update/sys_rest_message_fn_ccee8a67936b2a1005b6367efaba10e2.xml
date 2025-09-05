@@ -5,7 +5,9 @@
         <basic_auth_profile/>
         <basic_auth_user/>
         <content>{&#13;
-  "quantity": 1&#13;
+  "item_type": "laptop",&#13;
+  "operating_system": "mswindows",&#13;
+  "quantity": 2&#13;
 }</content>
         <function_name>Default  POST</function_name>
         <http_method>post</http_method>
@@ -19,14 +21,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-30 03:52:43</sys_created_on>
         <sys_id>ccee8a67936b2a1005b6367efaba10e2</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Default  POST</sys_name>
         <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
         <sys_policy/>
         <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
         <sys_update_name>sys_rest_message_fn_ccee8a67936b2a1005b6367efaba10e2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-30 17:40:19</sys_updated_on>
+        <sys_updated_on>2025-09-02 18:27:22</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
         <use_mid_server display_value="WMID Server">2968cdeb93efe61005b6367efaba10a1</use_mid_server>
         <use_mutual_auth>false</use_mutual_auth>

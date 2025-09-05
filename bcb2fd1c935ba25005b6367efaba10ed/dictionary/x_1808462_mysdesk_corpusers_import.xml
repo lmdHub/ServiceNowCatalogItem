@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="49f7c659937f625005b6367efaba10ce" extends="sys_import_set_row" label="CorpUsers Import" max_length="40" name="x_1808462_mysdesk_corpusers_import" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=accountExpires" label="accountExpires" max_length="40" name="u_accountexpires" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=lastLogoff" label="lastLogoff" max_length="40" name="u_lastlogoff" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=userAccountControl" label="userAccountControl" max_length="40" name="u_useraccountcontrol" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=title" label="title" max_length="40" name="u_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=mobile" label="mobile" max_length="40" name="u_mobile" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=countryCode" label="countryCode" max_length="40" name="u_countrycode" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=memberOf" label="memberOf" max_length="40" name="u_memberof" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=whenChanged" label="whenChanged" max_length="40" name="u_whenchanged" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=dSCorePropagationData" label="dSCorePropagationData" max_length="40" name="u_dscorepropagationdata" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=distinguishedName" label="distinguishedName" max_length="40" name="u_distinguishedname" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=department" label="department" max_length="40" name="u_department" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=codePage" label="codePage" max_length="40" name="u_codepage" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=telephoneNumber" label="telephoneNumber" max_length="40" name="u_telephonenumber" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=whenCreated" label="whenCreated" max_length="40" name="u_whencreated" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=badPasswordTime" label="badPasswordTime" max_length="40" name="u_badpasswordtime" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=name" label="name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sAMAccountType" label="sAMAccountType" max_length="40" name="u_samaccounttype" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sn" label="sn" max_length="40" name="u_sn" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=cn" label="cn" max_length="40" name="u_cn" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=givenName" label="givenName" max_length="40" name="u_givenname" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=displayName" label="displayName" max_length="40" name="u_displayname" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=objectCategory" label="objectCategory" max_length="40" name="u_objectcategory" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=primaryGroupID" label="primaryGroupID" max_length="40" name="u_primarygroupid" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=mail" label="mail" max_length="40" name="u_mail" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=userPrincipalName" label="userPrincipalName" max_length="40" name="u_userprincipalname" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=dn" label="dn" max_length="40" name="u_dn" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=lastLogon" label="lastLogon" max_length="40" name="u_lastlogon" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=uSNChanged" label="uSNChanged" max_length="40" name="u_usnchanged" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sAMAccountName" label="sAMAccountName" max_length="40" name="u_samaccountname" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=badPwdCount" label="badPwdCount" max_length="40" name="u_badpwdcount" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=objectSid" label="objectSid" max_length="40" name="u_objectsid" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=objectClass" label="objectClass" max_length="40" name="u_objectclass" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=instanceType" label="instanceType" max_length="40" name="u_instancetype" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=source" label="source" max_length="40" name="u_source" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=objectGUID" label="objectGUID" max_length="40" name="u_objectguid" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=logonCount" label="logonCount" max_length="40" name="u_logoncount" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=pwdLastSet" label="pwdLastSet" max_length="40" name="u_pwdlastset" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=uSNCreated" label="uSNCreated" max_length="40" name="u_usncreated" type="string"/>
+    </element>
+</database>

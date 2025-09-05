@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8e6fb59d933f625005b6367efaba106e" extends="sys_import_set_row" label="CorpGroups Import" max_length="40" name="x_1808462_mysdesk_corpgroups_import" type="collection"/>
+</database>

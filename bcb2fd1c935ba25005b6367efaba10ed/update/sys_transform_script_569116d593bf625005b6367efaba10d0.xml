@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="LDAP CorpUsers Import">e41c025d937f625005b6367efaba1066</map>
+        <order>100</order>
+        <script><![CDATA[//
+// It is possible that the manager for a user did not exist in the database when
+// the user was processed and therefore we could not locate and set the manager field.
+// The processManagers call below will find all those records for which a manager could
+// not be found and attempt to locate the manager again.  This happens at the end of the
+// import and therefore all users should have been created and we should be able to
+// locate the manager at this point
+ldapUtils.processManagers();]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-04 14:34:08</sys_created_on>
+        <sys_id>569116d593bf625005b6367efaba10d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onComplete</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>sys_transform_script_569116d593bf625005b6367efaba10d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-04 14:34:08</sys_updated_on>
+        <when>onComplete</when>
+    </sys_transform_script>
+</record_update>
