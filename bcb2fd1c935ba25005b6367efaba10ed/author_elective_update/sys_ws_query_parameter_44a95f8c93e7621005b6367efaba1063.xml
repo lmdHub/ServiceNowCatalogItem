@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter">
+    <sys_ws_query_parameter action="DELETE">
+        <example_value>active=true</example_value>
+        <name>ni_query</name>
+        <required>true</required>
+        <short_description>Encoded query for searching for specific NeedIt records</short_description>
+        <sys_class_name>sys_ws_query_parameter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-19 12:21:26</sys_created_on>
+        <sys_id>44a95f8c93e7621005b6367efaba1063</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ni_query</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>sys_ws_query_parameter_44a95f8c93e7621005b6367efaba1063</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-19 12:31:31</sys_updated_on>
+        <web_service_definition display_value="MyServiceDesk API">95a613c893e7621005b6367efaba10e0</web_service_definition>
+    </sys_ws_query_parameter>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</application>
+        <file_path/>
+        <instance_id>08d927e7eba4aa50cbdefceacad0cd10</instance_id>
+        <instance_name>dev314304</instance_name>
+        <name>sys_ws_query_parameter_44a95f8c93e7621005b6367efaba1063</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter"><sys_ws_query_parameter action="INSERT_OR_UPDATE"><example_value>active=true</example_value><name>ni_query</name><required>true</required><short_description>Encoded query for searching for specific NeedIt records</short_description><sys_class_name>sys_ws_query_parameter</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-19 12:21:26</sys_created_on><sys_id>44a95f8c93e7621005b6367efaba1063</sys_id><sys_mod_count>1</sys_mod_count><sys_name>ni_query</sys_name><sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package><sys_policy/><sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope><sys_update_name>sys_ws_query_parameter_44a95f8c93e7621005b6367efaba1063</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-19 12:31:31</sys_updated_on><web_service_definition display_value="MyServiceDesk API">95a613c893e7621005b6367efaba10e0</web_service_definition></sys_ws_query_parameter></record_update>]]></payload>
+        <payload_hash>-2008312110</payload_hash>
+        <record_name>ni_query</record_name>
+        <reverted_from/>
+        <source>8c23e223939f6a1005b6367efaba10ca</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-19 12:31:31</sys_created_on>
+        <sys_id>a42c1340932b621005b6367efaba10b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198c2502ef90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-19 12:31:31</sys_updated_on>
+        <type>Scripted REST Query Parameter</type>
+        <update_guid>2c2c13401f2b62109f9aceb8bec17cb8</update_guid>
+        <update_guid_history>2c2c13401f2b62109f9aceb8bec17cb8:-2008312110,b8d91b4c65e7621006731581884bec5b:1874706815</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 05:10:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_ws_query_parameter">sys_ws_query_parameter</sys_db_object>
+        <sys_id>a83baec425b34bf1b42f8a4761d54c49</sys_id>
+        <sys_metadata>44a95f8c93e7621005b6367efaba1063</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ni_query</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_scope_delete display_value="">447b3e640b474124ae5e82f54cbb34a1</sys_scope_delete>
+        <sys_update_name>sys_ws_query_parameter_44a95f8c93e7621005b6367efaba1063</sys_update_name>
+        <sys_update_version display_value="sys_ws_query_parameter_44a95f8c93e7621005b6367efaba1063">a42c1340932b621005b6367efaba10b9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 05:10:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

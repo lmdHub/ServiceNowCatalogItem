@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="DELETE">
+        <name>ord</name>
+        <rest_message_function display_value="Place Order">d6932ed593a7e61005b6367efaba1099</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 05:39:06</sys_created_on>
+        <sys_id>4a14aed193a7e61005b6367efaba1016</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>ord</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_4a14aed193a7e61005b6367efaba1016</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-25 15:32:31</sys_updated_on>
+        <type>string</type>
+        <value>orders</value>
+    </sys_rest_message_fn_parameters>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</application>
+        <file_path/>
+        <instance_id>08d927e7eba4aa50cbdefceacad0cd10</instance_id>
+        <instance_name>dev314304</instance_name>
+        <name>sys_rest_message_fn_parameters_4a14aed193a7e61005b6367efaba1016</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters"><sys_rest_message_fn_parameters action="INSERT_OR_UPDATE"><name>ord</name><rest_message_function display_value="Place Order">d6932ed593a7e61005b6367efaba1099</rest_message_function><sys_class_name>sys_rest_message_fn_parameters</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-23 05:39:06</sys_created_on><sys_id>4a14aed193a7e61005b6367efaba1016</sys_id><sys_mod_count>2</sys_mod_count><sys_name>ord</sys_name><sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package><sys_policy/><sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope><sys_update_name>sys_rest_message_fn_parameters_4a14aed193a7e61005b6367efaba1016</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-25 15:32:31</sys_updated_on><type>string</type><value>orders</value></sys_rest_message_fn_parameters></record_update>]]></payload>
+        <payload_hash>1781505664</payload_hash>
+        <record_name>ord</record_name>
+        <reverted_from/>
+        <source>8c23e223939f6a1005b6367efaba10ca</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-25 15:32:31</sys_created_on>
+        <sys_id>da1fb6869323621005b6367efaba10b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198e1dc0bc00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-25 15:32:31</sys_updated_on>
+        <type>Variable Substitutions</type>
+        <update_guid>121fb6863723621012a49ea942fa19b0</update_guid>
+        <update_guid_history>121fb6863723621012a49ea942fa19b0:1781505664,f4246215e1a7e610e4df2d4dedd8e9be:591040125,8e14aed195a7e61014941325e6d22b17:-1777015202</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-27 03:17:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn_parameters">sys_rest_message_fn_parameters</sys_db_object>
+        <sys_id>741c5eb2471947899a8cd37e6e2aafa1</sys_id>
+        <sys_metadata>4a14aed193a7e61005b6367efaba1016</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ord</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_scope_delete display_value="">447b3e640b474124ae5e82f54cbb34a1</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_parameters_4a14aed193a7e61005b6367efaba1016</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_parameters_4a14aed193a7e61005b6367efaba1016">da1fb6869323621005b6367efaba10b0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-27 03:17:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

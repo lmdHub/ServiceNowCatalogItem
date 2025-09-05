@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="DELETE">
+        <active>true</active>
+        <hint/>
+        <name>Asset</name>
+        <order/>
+        <roles>asset,sam,inventory_admin,model_manager,category_manager,inventory_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-26 19:45:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4ba205ea93afa21005b6367efaba10af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Asset</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>sys_ui_application_4ba205ea93afa21005b6367efaba10af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-26 19:45:52</sys_updated_on>
+    </sys_ui_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</application>
+        <file_path/>
+        <instance_id>08d927e7eba4aa50cbdefceacad0cd10</instance_id>
+        <instance_name>dev314304</instance_name>
+        <name>sys_ui_application_4ba205ea93afa21005b6367efaba10af</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>Asset</name><order/><roles>asset,sam,inventory_admin,model_manager,category_manager,inventory_user</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-26 19:45:52</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4ba205ea93afa21005b6367efaba10af</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Asset</sys_name><sys_overrides/><sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package><sys_policy/><sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope><sys_update_name>sys_ui_application_4ba205ea93afa21005b6367efaba10af</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-26 19:45:52</sys_updated_on></sys_ui_application></record_update>]]></payload>
+        <payload_hash>-1378289313</payload_hash>
+        <record_name>Asset</record_name>
+        <reverted_from/>
+        <source>8c23e223939f6a1005b6367efaba10ca</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-26 19:45:52</sys_created_on>
+        <sys_id>03a205ea93afa21005b6367efaba10b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198e7ea5a000000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-26 19:45:52</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>c3a205eaffafa2106ed46585beb5a6b2</update_guid>
+        <update_guid_history>c3a205eaffafa2106ed46585beb5a6b2:-1378289313</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-27 21:59:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_application">sys_ui_application</sys_db_object>
+        <sys_id>6c6f5df3ca1f40949390f7ed2d786b10</sys_id>
+        <sys_metadata>4ba205ea93afa21005b6367efaba10af</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Asset</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_scope_delete display_value="">447b3e640b474124ae5e82f54cbb34a1</sys_scope_delete>
+        <sys_update_name>sys_ui_application_4ba205ea93afa21005b6367efaba10af</sys_update_name>
+        <sys_update_version display_value="sys_ui_application_4ba205ea93afa21005b6367efaba10af">03a205ea93afa21005b6367efaba10b3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-27 21:59:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

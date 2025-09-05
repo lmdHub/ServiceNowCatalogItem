@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e4ee38a693afa21005b6367efaba10fc" label="Hardware Requests Tracker" max_length="40" name="x_1808462_mysdesk_hardware_requested" type="collection">
+        <element display="true" label="Order Number" max_length="40" name="order_number" read_only="true" type="script"/>
+        <element label="Operating System" max_length="40" name="operating_system" type="string"/>
+        <element label="Email Address" max_length="50" name="email_address" read_only="true" type="string"/>
+        <element label="Order ID" max_length="50" name="order_id" read_only="true" type="string"/>
+        <element label="Confirmation Number" max_length="50" name="confirmation_number" read_only="true" type="string"/>
+        <element label="Peripherals Requested" max_length="40" name="peripherals_requested" type="string"/>
+        <element label="Phone Number" max_length="40" name="phone_number" type="string"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <element label="RITM Number" max_length="40" name="ritm_number" type="string"/>
+        <element label="Business Justification" max_length="2000" name="business_justif" type="string"/>
+        <element label="Quantity" max_length="40" name="quantity" type="string"/>
+        <element label="Opened by" max_length="40" name="opened_by" read_only="true" type="string"/>
+        <element label="Shipping Location" max_length="40" name="shipping_location" type="string"/>
+        <element label="Requested Item" max_length="40" name="requested_item" type="string"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Request Type" max_length="40" name="request_type" type="string"/>
+        <element label="Requested for" max_length="40" name="requested_for" reference="sys_user" type="string"/>
+        <element label="Item Serial Number" max_length="500" name="item_serial_number" type="string"/>
+        <element label="Shipping Address" max_length="100" name="shipping_address" type="string"/>
+    </element>
+</database>

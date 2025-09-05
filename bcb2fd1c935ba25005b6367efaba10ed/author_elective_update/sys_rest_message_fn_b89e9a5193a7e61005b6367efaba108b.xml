@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="DELETE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>Default GET</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>Hardware Inventory and Order [ Default GET ]</qualified_name>
+        <rest_endpoint>https://ziptasticapi.com/${zipCode}</rest_endpoint>
+        <rest_message display_value="Hardware Inventory and Order">0e8c52dd9367e61005b6367efaba109b</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 05:14:58</sys_created_on>
+        <sys_id>b89e9a5193a7e61005b6367efaba108b</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Default GET</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>sys_rest_message_fn_b89e9a5193a7e61005b6367efaba108b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-27 03:18:39</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</application>
+        <file_path/>
+        <instance_id>08d927e7eba4aa50cbdefceacad0cd10</instance_id>
+        <instance_name>dev314304</instance_name>
+        <name>sys_rest_message_fn_b89e9a5193a7e61005b6367efaba108b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>Default GET</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>Hardware Inventory and Order [ Default GET ]</qualified_name><rest_endpoint>https://ziptasticapi.com/${zipCode}</rest_endpoint><rest_message display_value="Hardware Inventory and Order">0e8c52dd9367e61005b6367efaba109b</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-23 05:14:58</sys_created_on><sys_id>b89e9a5193a7e61005b6367efaba108b</sys_id><sys_mod_count>8</sys_mod_count><sys_name>Default GET</sys_name><sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package><sys_policy/><sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope><sys_update_name>sys_rest_message_fn_b89e9a5193a7e61005b6367efaba108b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-27 03:18:39</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+        <payload_hash>1905804348</payload_hash>
+        <record_name>Default GET</record_name>
+        <reverted_from/>
+        <source>8c23e223939f6a1005b6367efaba10ca</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-27 03:18:39</sys_created_on>
+        <sys_id>f74a2aee93a7e21005b6367efaba10e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198e988e3b20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-27 03:18:39</sys_updated_on>
+        <type>HTTP Method</type>
+        <update_guid>7f4a2aee4ba7e2105e61280041b5b2e4</update_guid>
+        <update_guid_history>7f4a2aee4ba7e2105e61280041b5b2e4:1905804348,6e3ae6eed6a7e210ba63052f3aee8763:-603772048,6cddb64e4def221004ae908139b950c0:865643282,f6bd3e0640236210286e3faf17e6a4f1:1661165744,23c0eed128a7e610c1371eead9787867:-1680089362,478022dd2167e6105c1d2332be6c7537:-92417793,9f6022118ca7e610e76799f2101a8c64:-1887581261,c460e61141a7e6105b025499c1ae77d2:-1495582022,709e9a51cfa7e61026145eeffd157c8e:576412706</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-27 03:22:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn">sys_rest_message_fn</sys_db_object>
+        <sys_id>425e0eab4b6543b8a38bc7de67d19684</sys_id>
+        <sys_metadata>b89e9a5193a7e61005b6367efaba108b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default GET</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_parent display_value="">0e8c52dd9367e61005b6367efaba109b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_scope_delete display_value="">447b3e640b474124ae5e82f54cbb34a1</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_b89e9a5193a7e61005b6367efaba108b</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_b89e9a5193a7e61005b6367efaba108b">f74a2aee93a7e21005b6367efaba10e5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-27 03:22:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

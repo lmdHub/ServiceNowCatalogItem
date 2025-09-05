@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="LDAP CorpUsers Import">e41c025d937f625005b6367efaba1066</map>
+        <order>100</order>
+        <script><![CDATA[//Deactivate LDAP-disabled users during transform based on 'userAccountControl' attribute.
+//This transform script is inactive by default
+//
+//NOTE: User records must be visible based on the OU filter in order to be disabled
+
+//Convert the userAccountControl attribute to a hex value
+var ctrl = parseInt(source.u_useraccountcontrol, 10);
+ctrl = ctrl.toString(16);
+
+//The relevant digit is the final one
+//A final hex digit value of '2' in 'ctrl' means disabled
+if (ctrl.substr(-1) == "2") {
+   target.active = false;
+   target.locked_out = true;
+   if (action == 'insert')
+      ignore = true;
+} else {
+   //Optional: Reactivate and unlock the user account
+   //target.active = true;
+   //target.locked_out = ctrl.substr(-2, 1) == "1";
+}]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-04 14:31:11</sys_created_on>
+        <sys_id>fad0da5593bf625005b6367efaba101f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onStart</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>sys_transform_script_fad0da5593bf625005b6367efaba101f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-04 14:31:11</sys_updated_on>
+        <when>onStart</when>
+    </sys_transform_script>
+</record_update>

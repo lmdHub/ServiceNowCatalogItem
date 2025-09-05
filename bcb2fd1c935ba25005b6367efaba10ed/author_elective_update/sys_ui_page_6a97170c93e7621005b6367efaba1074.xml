@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="DELETE">
+        <category>general</category>
+        <client_script/>
+        <description>Documentation for the MyServiceDesk App API</description>
+        <direct>false</direct>
+        <endpoint>x_1808462_mysdesk_myservicedesk_api_documentation.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<h1 style="color: #5e9ca0;"><span style="color: #000080;">NeedIt Scripted API</span></h1>
+The NeedIt Scripted API provides methods for interacting with data from the NeedIt application including: 
+<ul>
+<li>GET ni_getinfo: Get aggregate (count) information for records for a specific user from the NeedIt table.  The records are grouped by Request type.  The response includes the total number of NeedIt records for the user (integer), the count of NeedIt records for each Request type (array of objects), and user information (object).</li>
+</ul>
+</j:jelly>]]></html>
+        <name>myservicedesk_api_documentation</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-19 12:15:55</sys_created_on>
+        <sys_id>6a97170c93e7621005b6367efaba1074</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>myservicedesk_api_documentation</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>sys_ui_page_6a97170c93e7621005b6367efaba1074</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-19 12:15:55</sys_updated_on>
+    </sys_ui_page>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</application>
+        <file_path/>
+        <instance_id>08d927e7eba4aa50cbdefceacad0cd10</instance_id>
+        <instance_name>dev314304</instance_name>
+        <name>sys_ui_page_6a97170c93e7621005b6367efaba1074</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script/&gt;&lt;description&gt;Documentation for the MyServiceDesk App API&lt;/description&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint&gt;x_1808462_mysdesk_myservicedesk_api_documentation.do&lt;/endpoint&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+&lt;h1 style="color: #5e9ca0;"&gt;&lt;span style="color: #000080;"&gt;NeedIt Scripted API&lt;/span&gt;&lt;/h1&gt;
+The NeedIt Scripted API provides methods for interacting with data from the NeedIt application including: 
+&lt;ul&gt;
+&lt;li&gt;GET ni_getinfo: Get aggregate (count) information for records for a specific user from the NeedIt table.  The records are grouped by Request type.  The response includes the total number of NeedIt records for the user (integer), the count of NeedIt records for each Request type (array of objects), and user information (object).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name&gt;myservicedesk_api_documentation&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-19 12:15:55&lt;/sys_created_on&gt;&lt;sys_id&gt;6a97170c93e7621005b6367efaba1074&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;myservicedesk_api_documentation&lt;/sys_name&gt;&lt;sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk"&gt;bcb2fd1c935ba25005b6367efaba10ed&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MyServiceDesk"&gt;bcb2fd1c935ba25005b6367efaba10ed&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_6a97170c93e7621005b6367efaba1074&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-19 12:15:55&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1303655537</payload_hash>
+        <record_name>myservicedesk_api_documentation</record_name>
+        <reverted_from/>
+        <source>8c23e223939f6a1005b6367efaba10ca</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-19 12:15:56</sys_created_on>
+        <sys_id>0c98d74c93e7621005b6367efaba108e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198c241e8eb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-19 12:15:56</sys_updated_on>
+        <type>UI Page</type>
+        <update_guid>0098d74cd6e7621074f55333b35f7a8e</update_guid>
+        <update_guid_history>0098d74cd6e7621074f55333b35f7a8e:1303655537</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 06:00:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_page">sys_ui_page</sys_db_object>
+        <sys_id>10e2c2d92d3441fe9406817b3e3e9f64</sys_id>
+        <sys_metadata>6a97170c93e7621005b6367efaba1074</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>myservicedesk_api_documentation</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_scope_delete display_value="">447b3e640b474124ae5e82f54cbb34a1</sys_scope_delete>
+        <sys_update_name>sys_ui_page_6a97170c93e7621005b6367efaba1074</sys_update_name>
+        <sys_update_version display_value="sys_ui_page_6a97170c93e7621005b6367efaba1074">0c98d74c93e7621005b6367efaba108e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 06:00:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
