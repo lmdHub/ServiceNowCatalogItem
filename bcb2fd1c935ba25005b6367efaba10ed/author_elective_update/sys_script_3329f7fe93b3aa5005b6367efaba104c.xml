@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>true</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sc_req_item</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>One Request Per User</name>
+        <order>200</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous) {
+    var requester = current.requested_for; //
+
+    var gr = new GlideRecord("sc_req_item");
+    gr.addQuery("requested_for", requester); //
+    gr.addQuery("cat_item", current.cat_item);
+    gr.addQuery("sys_created_on", ">=", gs.daysAgoStart(180));
+    gr.addQuery("sys_id", "!=", current.sys_id);
+    gr.addQuery("state", "!=", "7");
+    gr.query();
+
+    if (gr.next()) {
+        var lastRequestDate = new GlideDateTime(gr.sys_created_on);
+        gs.addErrorMessage("You cannot request this item again within 6 months. " + 
+                          "Last request was on " + lastRequestDate.getDisplayValue());
+        current.setAbortAction(true);
+    }
+})(current, previous);
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-09 13:58:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3329f7fe93b3aa5005b6367efaba104c</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>One Request Per User</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>sys_script_3329f7fe93b3aa5005b6367efaba104c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-10 00:38:55</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=3329f7fe93b3aa5005b6367efaba104c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</application>
+        <file_path/>
+        <instance_id>08d927e7eba4aa50cbdefceacad0cd10</instance_id>
+        <instance_name>dev314304</instance_name>
+        <name>sys_script_3329f7fe93b3aa5005b6367efaba104c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;true&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sc_req_item&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;One Request Per User&lt;/name&gt;&lt;order&gt;200&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous) {
+    var requester = current.requested_for; //
+
+    var gr = new GlideRecord("sc_req_item");
+    gr.addQuery("requested_for", requester); //
+    gr.addQuery("cat_item", current.cat_item);
+    gr.addQuery("sys_created_on", "&gt;=", gs.daysAgoStart(180));
+    gr.addQuery("sys_id", "!=", current.sys_id);
+    gr.addQuery("state", "!=", "7");
+    gr.query();
+
+    if (gr.next()) {
+        var lastRequestDate = new GlideDateTime(gr.sys_created_on);
+        gs.addErrorMessage("You cannot request this item again within 6 months. " + 
+                          "Last request was on " + lastRequestDate.getDisplayValue());
+        current.setAbortAction(true);
+    }
+})(current, previous);
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-09 13:58:21&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;3329f7fe93b3aa5005b6367efaba104c&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;One Request Per User&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk"&gt;bcb2fd1c935ba25005b6367efaba10ed&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MyServiceDesk"&gt;bcb2fd1c935ba25005b6367efaba10ed&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_3329f7fe93b3aa5005b6367efaba104c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 00:38:55&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=3329f7fe93b3aa5005b6367efaba104c"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>408065306</payload_hash>
+        <record_name>One Request Per User</record_name>
+        <reverted_from/>
+        <source>8c23e223939f6a1005b6367efaba10ca</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-10 00:38:55</sys_created_on>
+        <sys_id>100cca0393ffaa5005b6367efaba10ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199310fae090000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-10 00:38:55</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>d00cca03d0ffaa50dd4f9e5e314219fe</update_guid>
+        <update_guid_history>d00cca03d0ffaa50dd4f9e5e314219fe:408065306,19f6828b40bfaa507d4a0354dcce8a6c:-213184361,91c4594b60bbaa5058b526d3d0b8ce2f:-805335734,07519907c5bbaa5055683f696f7b64f8:714255677,dcf380430837aa50e03c2ef570319327:-1317868610,b7fbbbf2f4f3aa5093cda6f8e8266849:1439971098,90793bb266f3aa50c4abff9a876f4c13:-1783919132,0969bf32d1f3aa50939b572d975d1205:1558710499</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-10 00:52:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>0713b0bcd7e143388c07fee5de108da4</sys_id>
+        <sys_metadata>3329f7fe93b3aa5005b6367efaba104c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>One Request Per User</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_parent display_value="Sc Req Item">9438ef3304f12210559073c06a02f7a8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_scope_delete display_value="">447b3e640b474124ae5e82f54cbb34a1</sys_scope_delete>
+        <sys_update_name>sys_script_3329f7fe93b3aa5005b6367efaba104c</sys_update_name>
+        <sys_update_version display_value="sys_script_3329f7fe93b3aa5005b6367efaba104c">100cca0393ffaa5005b6367efaba10ff</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-10 00:52:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
