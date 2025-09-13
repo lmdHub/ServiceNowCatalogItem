@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Request Desktop or Laptop">5fc33510939ba25005b6367efaba1027</catalog_item>
+        <catalog_variable>IO:7bcc7bde9313261005b6367efaba108e</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-11 13:10:45</sys_created_on>
+        <sys_id>4d7146eb93f76e5005b6367efaba1095</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>street_address</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_4d7146eb93f76e5005b6367efaba1095</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-11 13:10:45</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Display company and location field">2ad703329357a61005b6367efaba106a</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>street_address</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=4d7146eb93f76e5005b6367efaba1095"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</application>
+        <file_path/>
+        <instance_id>08d927e7eba4aa50cbdefceacad0cd10</instance_id>
+        <instance_name>dev314304</instance_name>
+        <name>catalog_ui_policy_action_4d7146eb93f76e5005b6367efaba1095</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Request Desktop or Laptop">5fc33510939ba25005b6367efaba1027</catalog_item><catalog_variable>IO:7bcc7bde9313261005b6367efaba108e</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-11 13:10:45</sys_created_on><sys_id>4d7146eb93f76e5005b6367efaba1095</sys_id><sys_mod_count>0</sys_mod_count><sys_name>street_address</sys_name><sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package><sys_policy/><sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope><sys_update_name>catalog_ui_policy_action_4d7146eb93f76e5005b6367efaba1095</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-11 13:10:45</sys_updated_on><table/><ui_policy display_value="Display company and location field">2ad703329357a61005b6367efaba106a</ui_policy><value/><value_action>ignore</value_action><variable>street_address</variable><variable_set/><visible>false</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=4d7146eb93f76e5005b6367efaba1095"/></record_update>]]></payload>
+        <payload_hash>-137048106</payload_hash>
+        <record_name>street_address</record_name>
+        <reverted_from/>
+        <source>8c23e223939f6a1005b6367efaba10ca</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-11 13:10:45</sys_created_on>
+        <sys_id>27a18aeb93f76e5005b6367efaba1056</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19938e65f830000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-11 13:10:45</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>1ba18aebb8f76e50c68d55bb2f421c55</update_guid>
+        <update_guid_history>1ba18aebb8f76e50c68d55bb2f421c55:-137048106</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="street_address">9aa3ce2f93f76e5005b6367efaba1043</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-11 13:19:25</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>abb527cdcc8d44f89e596062d57fcab1</sys_id>
+        <sys_metadata>4d7146eb93f76e5005b6367efaba1095</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>street_address</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_scope_delete display_value="">447b3e640b474124ae5e82f54cbb34a1</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_4d7146eb93f76e5005b6367efaba1095</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_4d7146eb93f76e5005b6367efaba1095">27a18aeb93f76e5005b6367efaba1056</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-11 13:19:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

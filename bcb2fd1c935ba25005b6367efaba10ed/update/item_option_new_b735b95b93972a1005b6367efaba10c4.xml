@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
-        <attributes/>
+        <attributes>ref_qual_elements=business_area</attributes>
         <cat_item/>
         <category/>
         <choice_direction>down</choice_direction>
@@ -27,15 +27,15 @@
         <help_tag>More information</help_tag>
         <help_text/>
         <hidden>false</hidden>
-        <include_none>false</include_none>
+        <include_none>true</include_none>
         <instructions/>
         <layout>normal</layout>
         <list_table/>
         <lookup_label/>
         <lookup_price/>
-        <lookup_table/>
-        <lookup_unique>false</lookup_unique>
-        <lookup_value/>
+        <lookup_table>sys_user</lookup_table>
+        <lookup_unique>true</lookup_unique>
+        <lookup_value>name</lookup_value>
         <macro/>
         <macroponent/>
         <mandatory>false</mandatory>
@@ -50,7 +50,7 @@
         <pricing_implications>false</pricing_implications>
         <published_ref/>
         <question_text>Manager</question_text>
-        <read_only>true</read_only>
+        <read_only>false</read_only>
         <read_roles/>
         <read_script/>
         <rec_lookup_price/>
@@ -58,8 +58,26 @@
         <record/>
         <record_producer_table/>
         <reference>sys_user</reference>
-        <reference_qual/>
-        <reference_qual_condition/>
+        <reference_qual>javascript:(function() {&#13;
+    var deptSysId = '';&#13;
+    var deptName = current.variables.business_area; // variable name&#13;
+    if (deptName) {&#13;
+        var d = new GlideRecord('cmn_department');&#13;
+        d.addQuery('name', deptName);&#13;
+        d.setLimit(1);&#13;
+        d.query();&#13;
+        if (d.next()) {&#13;
+            deptSysId = d.getUniqueValue();&#13;
+        }&#13;
+    }&#13;
+    return 'titleENDSWITHManager^active=true' +&#13;
+           (deptSysId ? '^department=' + deptSysId : '') +&#13;
+           '^ORDERBYname';&#13;
+})()</reference_qual>
+        <reference_qual_condition table="sys_user">titleISNOTEMPTY^department=221f3db5c6112284009f4becd3039cc9^EQ<item endquery="false" field="title" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item display_table="cmn_department" display_value="Development" endquery="false" field="department" goto="false" newquery="false" operator="=" or="false" value="221f3db5c6112284009f4becd3039cc9"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_qual_condition>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
@@ -79,14 +97,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-16 21:10:32</sys_created_on>
         <sys_id>b735b95b93972a1005b6367efaba10c4</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name>Manager</sys_name>
         <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
         <sys_policy/>
         <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
         <sys_update_name>item_option_new_b735b95b93972a1005b6367efaba10c4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-17 16:55:41</sys_updated_on>
+        <sys_updated_on>2025-09-12 20:39:27</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
@@ -94,7 +112,7 @@
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
         <validate_regex/>
         <variable_name/>
         <variable_set display_value="Hardware Request1">5b1ab518939ba25005b6367efaba1084</variable_set>

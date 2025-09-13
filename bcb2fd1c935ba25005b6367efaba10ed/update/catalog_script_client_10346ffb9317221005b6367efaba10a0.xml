@@ -22,16 +22,11 @@
     // if (isLoading || newValue == '') {
     //     return;
     // }
-
-	//line 2-4 was commented (removed) so the script can be executed onLoad and onChange
-
-    //Type appropriate comment here, and begin script below
+	//******line 2-4 was commented (removed) so the script can be executed onLoad and onChange******//
 
     var user_sysid = g_form.getValue('requested_for');
     // var user_sysid = '0e826bf03710200044e0bfc8bcbe5d7c';
-
-
-    console.log('user = ' + user_sysid);
+    // console.log('user = ' + user_sysid);
 
     var ga = new GlideAjax('x_1808462_mysdesk.UserDetailsClient');
     ga.addParam('sysparm_name', 'getUserdetails');
@@ -41,12 +36,9 @@
 }
 
 function getUserdetailsAnswer(response) {
+
     var answer = response.responseXML.documentElement.getAttribute('answer');
-
-    // g_form.setValue('comp_location', answer);
-
     console.log('Raw answer from Script Include: ' + answer);
-
 
     try {
         var obj = JSON.parse(answer);
@@ -62,7 +54,6 @@ function getUserdetailsAnswer(response) {
 
         g_form.setValue('home_company_location', compLoc);
 
-
     } catch (e) {
         console.error('Error parsing response: ', e);
     }
@@ -73,7 +64,7 @@ function getUserdetailsAnswer(response) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>10346ffb9317221005b6367efaba10a0</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Auto Populate User Details</sys_name>
         <sys_overrides/>
         <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
@@ -81,7 +72,7 @@ function getUserdetailsAnswer(response) {
         <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
         <sys_update_name>catalog_script_client_10346ffb9317221005b6367efaba10a0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-27 19:50:01</sys_updated_on>
+        <sys_updated_on>2025-09-10 12:50:00</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

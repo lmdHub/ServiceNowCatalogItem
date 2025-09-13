@@ -26,8 +26,10 @@
 
 
     //var managerField = 'manager';
-    var mger = g_form.getValue('manager');
-    var reqstor = g_form.getValue('requested_for');
+    // var mger = g_form.getValue('manager');
+    // var reqstor = g_form.getValue('requested_for');
+
+	var reqstor = g_form.getValue('requested_for');
     var message;
 
     if (newValue === '') {
@@ -49,6 +51,8 @@
         g_form.setReadOnly('manager', true);
     }
 
+	console.log("manager is: " + newValue);
+	console.log("RequestedFor: " + reqstor);
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -56,7 +60,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b78ff96793db6a1005b6367efaba10d8</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_name>Choose a manager if not assigned</sys_name>
         <sys_overrides/>
         <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
@@ -64,7 +68,7 @@
         <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
         <sys_update_name>catalog_script_client_b78ff96793db6a1005b6367efaba10d8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-18 21:46:11</sys_updated_on>
+        <sys_updated_on>2025-09-12 20:17:08</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

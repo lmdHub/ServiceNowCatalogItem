@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sc_req_item</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>One request per user within 6 month</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // --- 1. Get any value you need from the catalog item ---
+    var catItem = new GlideRecord('sc_cat_item');
+    if (!catItem.get(current.cat_item))
+        return; // safety check
+
+    var catItemName = catItem.getDisplayValue('name');
+
+    // Example: pull a custom field from the catalog item to use as Requested For
+    // Replace 'u_default_requested_for' with your actual field name on sc_cat_item
+    var requestedFor = catItem.getValue('requested_for') ||
+        current.getValue('requested_for'); // fallback to RITM value
+    var userName = '';
+    if (requestedFor) {
+        var u = new GlideRecord('sys_user');
+        if (u.get(requestedFor)) {
+            userName = u.getDisplayValue('name');
+        }
+    }
+
+    // --- 2. Update the parent request with the value from the catalog item ---
+    var req = new GlideRecord('sc_request');
+    if (req.get(current.request) && requestedFor) {
+        req.setValue('requested_for', requestedFor);
+        req.update();
+    }
+
+    // --- 3. Check for duplicate RITMs for this user & catalog item within 180 days ---
+    var dup = new GlideRecord('sc_req_item');
+    dup.addQuery('requested_for', requestedFor);
+    dup.addQuery('cat_item', current.cat_item);
+    dup.addQuery('sys_created_on', '>=', gs.daysAgoStart(180));
+    dup.addQuery('sys_id', '!=', current.sys_id);
+    dup.addQuery('state', '!=', '7'); // 7 = Closed/Cancelled
+    dup.query();
+
+    if (dup.next()) {
+
+        // Build rejection message
+        var lastRequestDate = new GlideDateTime(dup.sys_created_on);
+        var rejectionMsg = userName + " cannot request the item '" + catItemName +
+            "' again within 6 months. Last request was on " +
+            lastRequestDate.getDisplayValue() +
+            ". This item is restricted to one request within a six-month period.";
+
+        gs.addErrorMessage(rejectionMsg);
+
+        // --- 4. Reject the parent request ---
+        if (req.get(current.request)) {
+            req.setValue('approval', 'rejected');
+            req.setValue('request_state', 'rejected');
+            req.setValue('close_notes', rejectionMsg);
+            req.update();
+        }
+
+        // --- 5. Update all RITMs for this request ---
+        var ritm = new GlideRecord('sc_req_item');
+        ritm.addQuery('request', current.request);
+        ritm.query();
+        while (ritm.next()) {
+            ritm.setValue('state', 'closed_complete'); // or 'cancelled', etc.
+            ritm.setValue('comments', rejectionMsg); // Additional comments (Customer visible)
+            ritm.update();
+        }
+
+        current.setAbortAction(true); // Abort the current transaction
+    }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-10 19:13:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a3ea4e1f93f32e5005b6367efaba108a</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>One request per user within 6 month</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>sys_script_a3ea4e1f93f32e5005b6367efaba108a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-13 19:50:59</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=a3ea4e1f93f32e5005b6367efaba108a"/>
+</record_update>
