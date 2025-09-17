@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="DELETE">
+        <active>false</active>
+        <map display_value="LDAP CorpUsers Import">e41c025d937f625005b6367efaba1066</map>
+        <order>100</order>
+        <script><![CDATA[//
+// It is possible that the manager for a user did not exist in the database when
+// the user was processed and therefore we could not locate and set the manager field.
+// The processManagers call below will find all those records for which a manager could
+// not be found and attempt to locate the manager again.  This happens at the end of the
+// import and therefore all users should have been created and we should be able to
+// locate the manager at this point
+ldapUtils.processManagers();]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-04 14:34:08</sys_created_on>
+        <sys_id>569116d593bf625005b6367efaba10d0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>onComplete</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>sys_transform_script_569116d593bf625005b6367efaba10d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-15 18:55:14</sys_updated_on>
+        <when>onComplete</when>
+    </sys_transform_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</application>
+        <file_path/>
+        <instance_id>08d927e7eba4aa50cbdefceacad0cd10</instance_id>
+        <instance_name>dev314304</instance_name>
+        <name>sys_transform_script_569116d593bf625005b6367efaba10d0</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_script"&gt;&lt;sys_transform_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;map display_value="LDAP CorpUsers Import"&gt;e41c025d937f625005b6367efaba1066&lt;/map&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[//
+// It is possible that the manager for a user did not exist in the database when
+// the user was processed and therefore we could not locate and set the manager field.
+// The processManagers call below will find all those records for which a manager could
+// not be found and attempt to locate the manager again.  This happens at the end of the
+// import and therefore all users should have been created and we should be able to
+// locate the manager at this point
+ldapUtils.processManagers();]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_transform_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-04 14:34:08&lt;/sys_created_on&gt;&lt;sys_id&gt;569116d593bf625005b6367efaba10d0&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;onComplete&lt;/sys_name&gt;&lt;sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk"&gt;bcb2fd1c935ba25005b6367efaba10ed&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MyServiceDesk"&gt;bcb2fd1c935ba25005b6367efaba10ed&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_script_569116d593bf625005b6367efaba10d0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-15 18:55:14&lt;/sys_updated_on&gt;&lt;when&gt;onComplete&lt;/when&gt;&lt;/sys_transform_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2113749617</payload_hash>
+        <record_name>onComplete</record_name>
+        <reverted_from/>
+        <source>8c23e223939f6a1005b6367efaba10ca</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-15 18:55:14</sys_created_on>
+        <sys_id>60e633b49388369005b6367efaba10d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1994ebb30b00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-15 18:55:14</sys_updated_on>
+        <type>Transform Script</type>
+        <update_guid>e4e633b46488369036f0e667716080d1</update_guid>
+        <update_guid_history>e4e633b46488369036f0e667716080d1:-2113749617,2ca11e95aabf6250a2f084c5cf9aecb1:1994037718</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-15 19:54:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_script">sys_transform_script</sys_db_object>
+        <sys_id>0aaf079593e3452880a0950d59026890</sys_id>
+        <sys_metadata>569116d593bf625005b6367efaba10d0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onComplete</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_scope_delete display_value="">447b3e640b474124ae5e82f54cbb34a1</sys_scope_delete>
+        <sys_update_name>sys_transform_script_569116d593bf625005b6367efaba10d0</sys_update_name>
+        <sys_update_version display_value="sys_transform_script_569116d593bf625005b6367efaba10d0">60e633b49388369005b6367efaba10d2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-15 19:54:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

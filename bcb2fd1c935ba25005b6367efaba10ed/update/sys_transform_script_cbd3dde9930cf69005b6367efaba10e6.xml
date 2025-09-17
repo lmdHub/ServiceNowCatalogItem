@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <map display_value="LDAP CorpUsers Import">f806440d93c8369005b6367efaba103d</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+gs.include("LDAPUtils");
+var ldapUtils = new LDAPUtils();
+ldapUtils.setLog(log);
+
+
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 14:58:42</sys_created_on>
+        <sys_id>cbd3dde9930cf69005b6367efaba10e6</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>sys_transform_script_cbd3dde9930cf69005b6367efaba10e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 17:49:00</sys_updated_on>
+        <when>onBefore</when>
+    </sys_transform_script>
+</record_update>

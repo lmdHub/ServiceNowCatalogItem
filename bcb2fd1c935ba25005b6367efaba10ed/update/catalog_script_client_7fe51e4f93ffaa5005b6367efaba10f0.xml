@@ -3,8 +3,8 @@
         <active>true</active>
         <applies_catalog>true</applies_catalog>
         <applies_extended>false</applies_extended>
-        <applies_req_item>true</applies_req_item>
-        <applies_sc_task>true</applies_sc_task>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
         <cat_item display_value="Request Desktop or Laptop">5fc33510939ba25005b6367efaba1027</cat_item>
@@ -15,65 +15,42 @@
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>One req in 6 mth and Mac OS Restriction</name>
+        <name>Only IT and Dev Staff can req MacOS</name>
         <order/>
         <published_ref/>
         <script><![CDATA[function onSubmit() {
-    //Type appropriate comment here, and begin script below
-
     var businessArea = g_form.getValue("business_area");
-    var os = g_form.getValue("select_operating_system");
-    var depts = ['IT', 'Development'];
+    var os           = g_form.getValue("select_operating_system");
+    var depts        = ['IT', 'Development'];
 
-    var user = g_form.getValue('requested_for');
-
-    var gr = new GlideRecord(x_1808462_mysdesk_hardware_requested);
-    gr.addQuery('requested_for', user);
-    gr.query();
-
-    if (gr.next()) {
-        var lastRequestDate = new GlideDateTime(gr.sys_created_on);
-        var rejectionMsg = userName + " cannot request the item '" + catItemName +
-            "' again within 6 months. Last request was on " +
-            lastRequestDate.getDisplayValue() +
-            ". This item is restricted to one request within a six-month period.";
-		
-		var message = "This user exceeded the number of request within 6 month";
-
-        g_form.addErrorMessage(rejectionMsg);
-
-        g_form.showFieldMsg('requested_for', message, 'error');
-
-        return false;
-
-    } else if (os === "appleos" && depts.indexOf(businessArea) === -1) {
-        g_form.addErrorMessage("Only IT and Development staff can request a Apple Machine");
-
+    // --- Mac OS restriction ---
+    if (os === "appleos" && depts.indexOf(businessArea) === -1) {
+        g_form.addErrorMessage("Only IT and Development staff can request an Apple machine");
         return false;
     }
 
     return true;
-
-}]]></script>
+}
+]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-10 01:24:48</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7fe51e4f93ffaa5005b6367efaba10f0</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_name>One req in 6 mth and Mac OS Restriction</sys_name>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>Only IT and Dev Staff can req MacOS</sys_name>
         <sys_overrides/>
         <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
         <sys_policy/>
         <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
         <sys_update_name>catalog_script_client_7fe51e4f93ffaa5005b6367efaba10f0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-13 19:53:51</sys_updated_on>
+        <sys_updated_on>2025-09-13 23:15:45</sys_updated_on>
         <table/>
         <type>onSubmit</type>
         <ui_type>10</ui_type>
-        <va_supported>false</va_supported>
+        <va_supported>true</va_supported>
         <variable_set/>
         <view/>
     </catalog_script_client>

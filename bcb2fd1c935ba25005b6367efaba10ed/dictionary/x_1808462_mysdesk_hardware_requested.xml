@@ -16,7 +16,7 @@
         <element label="Requested Item" max_length="40" name="requested_item" type="string"/>
         <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Request Type" max_length="40" name="request_type" type="string"/>
-        <element label="Requested for" max_length="40" name="requested_for" reference="sys_user" type="string"/>
+        <element label="Requested for" max_length="40" name="requested_for" type="string"/>
         <element label="Item Serial Number" max_length="500" name="item_serial_number" type="string"/>
         <element label="Shipping Address" max_length="100" name="shipping_address" type="string"/>
     </element>

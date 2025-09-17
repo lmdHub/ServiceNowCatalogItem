@@ -4,13 +4,13 @@
             <element>.begin_split</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>a9f436959373a25005b6367efaba1098</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>1508895d9384b69005b6367efaba1085</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>u_name</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>29f436959373a25005b6367efaba1099</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5108895d9384b69005b6367efaba1086</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>u_primarygroupid</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>2df4f6959373a25005b6367efaba1020</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5908895d9384b69005b6367efaba1086</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>u_mail</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>25f4f6959373a25005b6367efaba1021</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5108895d9384b69005b6367efaba1087</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>u_userprincipalname</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>2df4f6959373a25005b6367efaba1021</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5908895d9384b69005b6367efaba1087</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>u_objectclass</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>25f4f6959373a25005b6367efaba1022</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5108895d9384b69005b6367efaba1088</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>u_instancetype</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>2df4f6959373a25005b6367efaba1022</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5908895d9384b69005b6367efaba1088</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>u_dn</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>25f4f6959373a25005b6367efaba1023</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5108895d9384b69005b6367efaba1089</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>u_lastlogon</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>2df4f6959373a25005b6367efaba1023</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5908895d9384b69005b6367efaba1089</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -130,13 +130,13 @@
             <element>u_usnchanged</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>25f4f6959373a25005b6367efaba1024</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5108895d9384b69005b6367efaba108a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -144,13 +144,13 @@
             <element>u_samaccountname</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>2df4f6959373a25005b6367efaba1024</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5908895d9384b69005b6367efaba108a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -158,13 +158,13 @@
             <element>u_badpwdcount</element>
             <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>25f4f6959373a25005b6367efaba1025</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5108895d9384b69005b6367efaba108b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -172,13 +172,13 @@
             <element>u_accountexpires</element>
             <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>2df4f6959373a25005b6367efaba1025</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5908895d9384b69005b6367efaba108b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -186,13 +186,13 @@
             <element>u_sn</element>
             <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>25f4f6959373a25005b6367efaba1026</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5108895d9384b69005b6367efaba108c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -200,13 +200,13 @@
             <element>u_source</element>
             <position>14</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>2df4f6959373a25005b6367efaba1026</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5908895d9384b69005b6367efaba108c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -214,13 +214,13 @@
             <element>u_objectguid</element>
             <position>15</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>25f4f6959373a25005b6367efaba1027</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5108895d9384b69005b6367efaba108d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -228,13 +228,13 @@
             <element>u_logoncount</element>
             <position>16</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>2df4f6959373a25005b6367efaba1027</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5908895d9384b69005b6367efaba108d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -242,13 +242,13 @@
             <element>u_pwdlastset</element>
             <position>17</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>25f4f6959373a25005b6367efaba1028</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5108895d9384b69005b6367efaba108e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -256,13 +256,13 @@
             <element>u_cn</element>
             <position>18</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>2df4f6959373a25005b6367efaba1028</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5908895d9384b69005b6367efaba108e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -270,13 +270,13 @@
             <element>u_givenname</element>
             <position>19</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>25f4f6959373a25005b6367efaba1029</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5108895d9384b69005b6367efaba108f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -284,13 +284,13 @@
             <element>.split</element>
             <position>20</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>2df4f6959373a25005b6367efaba1029</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5908895d9384b69005b6367efaba108f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -298,13 +298,13 @@
             <element>u_displayname</element>
             <position>21</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>25f4f6959373a25005b6367efaba102a</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5108895d9384b69005b6367efaba1090</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -312,13 +312,13 @@
             <element>u_objectcategory</element>
             <position>22</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>2df4f6959373a25005b6367efaba102a</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5908895d9384b69005b6367efaba1090</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -326,13 +326,13 @@
             <element>u_usncreated</element>
             <position>23</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>25f4f6959373a25005b6367efaba102b</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5108895d9384b69005b6367efaba1091</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -340,13 +340,13 @@
             <element>u_title</element>
             <position>24</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>2df4f6959373a25005b6367efaba102b</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5908895d9384b69005b6367efaba1091</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -354,13 +354,13 @@
             <element>u_mobile</element>
             <position>25</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>25f4f6959373a25005b6367efaba102c</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5108895d9384b69005b6367efaba1092</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -368,13 +368,13 @@
             <element>u_countrycode</element>
             <position>26</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>2df4f6959373a25005b6367efaba102c</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5908895d9384b69005b6367efaba1092</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -382,13 +382,13 @@
             <element>u_memberof</element>
             <position>27</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>25f4f6959373a25005b6367efaba102d</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5108895d9384b69005b6367efaba1093</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -396,13 +396,13 @@
             <element>u_whenchanged</element>
             <position>28</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>2df4f6959373a25005b6367efaba102d</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5908895d9384b69005b6367efaba1093</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -410,13 +410,13 @@
             <element>u_dscorepropagationdata</element>
             <position>29</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>25f4f6959373a25005b6367efaba102e</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5108895d9384b69005b6367efaba1094</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -424,13 +424,13 @@
             <element>u_distinguishedname</element>
             <position>30</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>2df4f6959373a25005b6367efaba102e</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5908895d9384b69005b6367efaba1094</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -438,13 +438,13 @@
             <element>u_department</element>
             <position>31</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>25f4f6959373a25005b6367efaba102f</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5108895d9384b69005b6367efaba1095</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -452,13 +452,13 @@
             <element>u_telephonenumber</element>
             <position>32</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>2df4f6959373a25005b6367efaba102f</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5908895d9384b69005b6367efaba1095</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -466,13 +466,13 @@
             <element>u_badpasswordtime</element>
             <position>33</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>25f4f6959373a25005b6367efaba1030</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5108895d9384b69005b6367efaba1096</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -480,13 +480,13 @@
             <element>u_samaccounttype</element>
             <position>34</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>2df4f6959373a25005b6367efaba1030</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5908895d9384b69005b6367efaba1096</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -494,13 +494,13 @@
             <element>u_lastlogoff</element>
             <position>35</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>25f4f6959373a25005b6367efaba1031</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5108895d9384b69005b6367efaba1097</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -508,13 +508,13 @@
             <element>u_useraccountcontrol</element>
             <position>36</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>2df4f6959373a25005b6367efaba1031</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5908895d9384b69005b6367efaba1097</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -522,13 +522,13 @@
             <element>u_codepage</element>
             <position>37</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>25f4f6959373a25005b6367efaba1032</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5108895d9384b69005b6367efaba1098</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -536,13 +536,13 @@
             <element>u_whencreated</element>
             <position>38</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>2df4f6959373a25005b6367efaba1032</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5908895d9384b69005b6367efaba1098</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -550,27 +550,69 @@
             <element>u_objectsid</element>
             <position>39</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>25f4f6959373a25005b6367efaba1033</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5108895d9384b69005b6367efaba1099</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_manager</element>
+            <position>40</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5908895d9384b69005b6367efaba1099</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_physicaldeliveryofficename</element>
+            <position>41</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5108895d9384b69005b6367efaba109a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_company</element>
+            <position>42</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5908895d9384b69005b6367efaba109a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>40</position>
+            <position>43</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-04 17:08:29</sys_created_on>
-            <sys_id>2df4f6959373a25005b6367efaba1033</sys_id>
+            <sys_created_on>2025-09-16 19:28:12</sys_created_on>
+            <sys_id>5108895d9384b69005b6367efaba109b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1808462_mysdesk_corpusers_import" sys_domain="global" view="Default view">21f436959373a25005b6367efaba1091</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-04 17:08:29</sys_updated_on>
+            <sys_updated_on>2025-09-16 19:28:12</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>

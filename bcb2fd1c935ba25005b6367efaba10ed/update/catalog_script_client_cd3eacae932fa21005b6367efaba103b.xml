@@ -3,8 +3,8 @@
         <active>true</active>
         <applies_catalog>true</applies_catalog>
         <applies_extended>false</applies_extended>
-        <applies_req_item>false</applies_req_item>
-        <applies_sc_task>false</applies_sc_task>
+        <applies_req_item>true</applies_req_item>
+        <applies_sc_task>true</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
         <cat_item display_value="Request Desktop or Laptop">5fc33510939ba25005b6367efaba1027</cat_item>
@@ -82,7 +82,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cd3eacae932fa21005b6367efaba103b</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>Auto Populate CityStateWithZipAPI</sys_name>
         <sys_overrides/>
         <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
@@ -90,7 +90,7 @@
         <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
         <sys_update_name>catalog_script_client_cd3eacae932fa21005b6367efaba103b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-27 19:35:08</sys_updated_on>
+        <sys_updated_on>2025-09-13 20:29:52</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="DELETE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
+        <enforce_mandatory_fields>No</enforce_mandatory_fields>
+        <name>LDAP CorpUsers Import</name>
+        <order>100</order>
+        <run_business_rules>true</run_business_rules>
+        <run_script>true</run_script>
+        <script><![CDATA[//
+// The manager coming in from LDAP is the DN value for the manager.  
+// The line of code below will locate the manager that matches the
+// DN value and set it into the target record. To ignore the manager 
+// from LDAP, remove or comment out the line: ldapUtils.setManager(source, target);
+//
+// NOTE: The 'manager' field SHOULD NOT be mapped in the 'Field Maps' related list
+// if the manager is brought in through an LDAP import.  The 'ldapUtils' scripts
+// here and in the 'onComplete' Transform Map will map this value automatically.
+ldapUtils.setManager(source, target);
+
+// Set the source LDAP server into the target record
+target.ldap_server = source.sys_import_set.data_source.ldap_target.server;
+
+if (target.email && source.mail) {
+    target.email = source.mail;  // always keep AD email
+}]]></script>
+        <source_table>x_1808462_mysdesk_corpusers_import</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-04 14:12:37</sys_created_on>
+        <sys_id>e41c025d937f625005b6367efaba1066</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>LDAP CorpUsers Import</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>sys_transform_map_e41c025d937f625005b6367efaba1066</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-15 18:54:51</sys_updated_on>
+        <target_table>sys_user</target_table>
+    </sys_transform_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</application>
+        <file_path/>
+        <instance_id>08d927e7eba4aa50cbdefceacad0cd10</instance_id>
+        <instance_name>dev314304</instance_name>
+        <name>sys_transform_map_e41c025d937f625005b6367efaba1066</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_map"&gt;&lt;sys_transform_map action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;copy_empty_fields&gt;false&lt;/copy_empty_fields&gt;&lt;create_new_record_on_empty_coalesce_fields&gt;false&lt;/create_new_record_on_empty_coalesce_fields&gt;&lt;enforce_mandatory_fields&gt;No&lt;/enforce_mandatory_fields&gt;&lt;name&gt;LDAP CorpUsers Import&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;run_business_rules&gt;true&lt;/run_business_rules&gt;&lt;run_script&gt;true&lt;/run_script&gt;&lt;script&gt;&lt;![CDATA[//
+// The manager coming in from LDAP is the DN value for the manager.  
+// The line of code below will locate the manager that matches the
+// DN value and set it into the target record. To ignore the manager 
+// from LDAP, remove or comment out the line: ldapUtils.setManager(source, target);
+//
+// NOTE: The 'manager' field SHOULD NOT be mapped in the 'Field Maps' related list
+// if the manager is brought in through an LDAP import.  The 'ldapUtils' scripts
+// here and in the 'onComplete' Transform Map will map this value automatically.
+ldapUtils.setManager(source, target);
+
+// Set the source LDAP server into the target record
+target.ldap_server = source.sys_import_set.data_source.ldap_target.server;
+
+if (target.email &amp;&amp; source.mail) {
+    target.email = source.mail;  // always keep AD email
+}]]&gt;&lt;/script&gt;&lt;source_table&gt;x_1808462_mysdesk_corpusers_import&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_map&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-04 14:12:37&lt;/sys_created_on&gt;&lt;sys_id&gt;e41c025d937f625005b6367efaba1066&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;LDAP CorpUsers Import&lt;/sys_name&gt;&lt;sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk"&gt;bcb2fd1c935ba25005b6367efaba10ed&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MyServiceDesk"&gt;bcb2fd1c935ba25005b6367efaba10ed&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_map_e41c025d937f625005b6367efaba1066&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-15 18:54:51&lt;/sys_updated_on&gt;&lt;target_table&gt;sys_user&lt;/target_table&gt;&lt;/sys_transform_map&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1908740259</payload_hash>
+        <record_name>LDAP CorpUsers Import</record_name>
+        <reverted_from/>
+        <source>8c23e223939f6a1005b6367efaba10ca</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-15 18:54:51</sys_created_on>
+        <sys_id>0fc67fb49388369005b6367efaba1019</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1994ebad77c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-15 18:54:51</sys_updated_on>
+        <type>Table Transform Map</type>
+        <update_guid>b2c67fb44a8836907c35e1526207ae19</update_guid>
+        <update_guid_history>b2c67fb44a8836907c35e1526207ae19:1908740259,aadcc21180bf625066166dfbdb280497:-2001931350,55bcc2110bbf6250250e7998f12eaa93:477216973</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-15 19:54:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_map">sys_transform_map</sys_db_object>
+        <sys_id>06731c0fa686459281efa8f61360f861</sys_id>
+        <sys_metadata>e41c025d937f625005b6367efaba1066</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LDAP CorpUsers Import</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_scope_delete display_value="">447b3e640b474124ae5e82f54cbb34a1</sys_scope_delete>
+        <sys_update_name>sys_transform_map_e41c025d937f625005b6367efaba1066</sys_update_name>
+        <sys_update_version display_value="sys_transform_map_e41c025d937f625005b6367efaba1066">0fc67fb49388369005b6367efaba1019</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-15 19:54:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

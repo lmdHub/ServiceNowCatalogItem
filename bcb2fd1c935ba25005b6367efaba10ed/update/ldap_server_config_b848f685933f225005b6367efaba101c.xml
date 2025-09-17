@@ -7,7 +7,7 @@
         <dn>Wmid Server</dn>
         <dn_field/>
         <listen_interval>5</listen_interval>
-        <listener>true</listener>
+        <listener>false</listener>
         <map/>
         <mid_server display_value="WMID Server">2968cdeb93efe61005b6367efaba10a1</mid_server>
         <name>WIN-SERVER</name>
@@ -21,14 +21,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-03 22:48:18</sys_created_on>
         <sys_id>b848f685933f225005b6367efaba101c</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>WIN-SERVER</sys_name>
         <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
         <sys_policy/>
         <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
         <sys_update_name>ldap_server_config_b848f685933f225005b6367efaba101c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-03 22:54:07</sys_updated_on>
+        <sys_updated_on>2025-09-17 15:08:22</sys_updated_on>
         <system_id>app128030.ord191.service-now.com:dev314304001</system_id>
         <vendor>active_directory</vendor>
     </ldap_server_config>

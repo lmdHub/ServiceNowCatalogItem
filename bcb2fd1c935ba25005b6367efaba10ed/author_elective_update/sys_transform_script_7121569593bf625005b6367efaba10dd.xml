@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="DELETE">
+        <active>false</active>
+        <map display_value="LDAP CorpUsers Import">e41c025d937f625005b6367efaba1066</map>
+        <order>100</order>
+        <script><![CDATA[gs.include("LDAPUtils");
+var ldapUtils = new LDAPUtils();
+ldapUtils.setLog(log);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-04 14:32:37</sys_created_on>
+        <sys_id>7121569593bf625005b6367efaba10dd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>onStart</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>sys_transform_script_7121569593bf625005b6367efaba10dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-15 18:55:18</sys_updated_on>
+        <when>onStart</when>
+    </sys_transform_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</application>
+        <file_path/>
+        <instance_id>08d927e7eba4aa50cbdefceacad0cd10</instance_id>
+        <instance_name>dev314304</instance_name>
+        <name>sys_transform_script_7121569593bf625005b6367efaba10dd</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_script"&gt;&lt;sys_transform_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;map display_value="LDAP CorpUsers Import"&gt;e41c025d937f625005b6367efaba1066&lt;/map&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[gs.include("LDAPUtils");
+var ldapUtils = new LDAPUtils();
+ldapUtils.setLog(log);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_transform_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-04 14:32:37&lt;/sys_created_on&gt;&lt;sys_id&gt;7121569593bf625005b6367efaba10dd&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;onStart&lt;/sys_name&gt;&lt;sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk"&gt;bcb2fd1c935ba25005b6367efaba10ed&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MyServiceDesk"&gt;bcb2fd1c935ba25005b6367efaba10ed&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_script_7121569593bf625005b6367efaba10dd&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-15 18:55:18&lt;/sys_updated_on&gt;&lt;when&gt;onStart&lt;/when&gt;&lt;/sys_transform_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1214822976</payload_hash>
+        <record_name>onStart</record_name>
+        <reverted_from/>
+        <source>8c23e223939f6a1005b6367efaba10ca</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-15 18:55:18</sys_created_on>
+        <sys_id>95e633f49388369005b6367efaba1037</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1994ebb3e5b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-15 18:55:18</sys_updated_on>
+        <type>Transform Script</type>
+        <update_guid>1de633f4fb8836900649ed0e4fa8be36</update_guid>
+        <update_guid_history>1de633f4fb8836900649ed0e4fa8be36:-1214822976,1241d2958cbf62500a13112bbdeacde4:-25309369</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-15 19:54:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_script">sys_transform_script</sys_db_object>
+        <sys_id>1ae1e2a5105a4b08b660b37c012aee10</sys_id>
+        <sys_metadata>7121569593bf625005b6367efaba10dd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onStart</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_scope_delete display_value="">447b3e640b474124ae5e82f54cbb34a1</sys_scope_delete>
+        <sys_update_name>sys_transform_script_7121569593bf625005b6367efaba10dd</sys_update_name>
+        <sys_update_version display_value="sys_transform_script_7121569593bf625005b6367efaba10dd">95e633f49388369005b6367efaba1037</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-15 19:54:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
