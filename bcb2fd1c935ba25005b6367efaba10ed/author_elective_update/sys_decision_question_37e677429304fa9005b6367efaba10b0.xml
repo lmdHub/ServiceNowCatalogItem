@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="DELETE">
+        <active>true</active>
+        <answer>0be63b0a93c0fa9005b6367efaba100e</answer>
+        <condition table="var__m_sys_decision_input_e4cbab4293c0fa9005b6367efaba1087">u_events=quantity^EQ<item display_value="Quantity" endquery="false" field="u_events" goto="false" newquery="false" operator="=" or="false" value="quantity"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="MySDeskDT">e4cbab4293c0fa9005b6367efaba1087</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_e4cbab4293c0fa9005b6367efaba1087</input_table>
+        <label>MySDeskDT_300</label>
+        <marked_for_deletion>false</marked_for_deletion>
+        <order>300</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-19 16:07:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>37e677429304fa9005b6367efaba10b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MySDeskDT_300</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>sys_decision_question_37e677429304fa9005b6367efaba10b0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-19 16:07:52</sys_updated_on>
+    </sys_decision_question>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</application>
+        <file_path/>
+        <instance_id>08d927e7eba4aa50cbdefceacad0cd10</instance_id>
+        <instance_name>dev314304</instance_name>
+        <name>sys_decision_question_37e677429304fa9005b6367efaba10b0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question"><sys_decision_question action="INSERT_OR_UPDATE"><active>true</active><answer>0be63b0a93c0fa9005b6367efaba100e</answer><condition table="var__m_sys_decision_input_e4cbab4293c0fa9005b6367efaba1087">u_events=quantity^EQ<item display_value="Quantity" endquery="false" field="u_events" goto="false" newquery="false" operator="=" or="false" value="quantity"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><decision_table display_value="MySDeskDT">e4cbab4293c0fa9005b6367efaba1087</decision_table><default_answer>false</default_answer><input_table>var__m_sys_decision_input_e4cbab4293c0fa9005b6367efaba1087</input_table><label>MySDeskDT_300</label><marked_for_deletion>false</marked_for_deletion><order>300</order><sys_class_name>sys_decision_question</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 16:07:52</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>37e677429304fa9005b6367efaba10b0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>MySDeskDT_300</sys_name><sys_overrides/><sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package><sys_policy/><sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope><sys_update_name>sys_decision_question_37e677429304fa9005b6367efaba10b0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 16:07:52</sys_updated_on></sys_decision_question></record_update>]]></payload>
+        <payload_hash>-688645985</payload_hash>
+        <record_name>MySDeskDT_300</record_name>
+        <reverted_from/>
+        <source>8c23e223939f6a1005b6367efaba10ca</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-19 16:07:52</sys_created_on>
+        <sys_id>fbe677429304fa9005b6367efaba10b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19962bb645b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-19 16:07:52</sys_updated_on>
+        <type>Decision</type>
+        <update_guid>ffe677425c04fa90ed31d446d3a316b3</update_guid>
+        <update_guid_history>ffe677425c04fa90ed31d446d3a316b3:-688645985</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-22 15:48:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_decision_question">sys_decision_question</sys_db_object>
+        <sys_id>4ddca16fb2d44ea9a41a92a0ed62fa61</sys_id>
+        <sys_metadata>37e677429304fa9005b6367efaba10b0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MySDeskDT_300</sys_name>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_scope_delete display_value="">447b3e640b474124ae5e82f54cbb34a1</sys_scope_delete>
+        <sys_update_name>sys_decision_question_37e677429304fa9005b6367efaba10b0</sys_update_name>
+        <sys_update_version display_value="sys_decision_question_37e677429304fa9005b6367efaba10b0">fbe677429304fa9005b6367efaba10b4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-22 15:48:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

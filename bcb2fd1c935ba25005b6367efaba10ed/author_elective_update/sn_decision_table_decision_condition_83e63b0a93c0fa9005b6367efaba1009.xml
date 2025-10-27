@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition">
+    <sn_decision_table_decision_condition action="DELETE">
+        <decision_input/>
+        <decision_table display_value="MySDeskDT">e4cbab4293c0fa9005b6367efaba1087</decision_table>
+        <default_operator>=</default_operator>
+        <description/>
+        <field/>
+        <field_label/>
+        <field_parent_table/>
+        <label>requestedItem</label>
+        <order>100</order>
+        <parent/>
+        <reference/>
+        <sys_class_name>sn_decision_table_decision_condition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-19 16:07:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>83e63b0a93c0fa9005b6367efaba1009</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>sn_decision_table_decision_condition_83e63b0a93c0fa9005b6367efaba1009</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-19 16:07:49</sys_updated_on>
+        <type display_value="Choice">5217a7c1bf3320001875647fcf0739b7</type>
+    </sn_decision_table_decision_condition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</application>
+        <file_path/>
+        <instance_id>08d927e7eba4aa50cbdefceacad0cd10</instance_id>
+        <instance_name>dev314304</instance_name>
+        <name>sn_decision_table_decision_condition_83e63b0a93c0fa9005b6367efaba1009</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition"><sn_decision_table_decision_condition action="INSERT_OR_UPDATE"><decision_input/><decision_table display_value="MySDeskDT">e4cbab4293c0fa9005b6367efaba1087</decision_table><default_operator>=</default_operator><description/><field/><field_label/><field_parent_table/><label>requestedItem</label><order>100</order><parent/><reference/><sys_class_name>sn_decision_table_decision_condition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 16:07:49</sys_created_on><sys_domain>global</sys_domain><sys_id>83e63b0a93c0fa9005b6367efaba1009</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package><sys_policy/><sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope><sys_update_name>sn_decision_table_decision_condition_83e63b0a93c0fa9005b6367efaba1009</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 16:07:49</sys_updated_on><type display_value="Choice">5217a7c1bf3320001875647fcf0739b7</type></sn_decision_table_decision_condition></record_update>]]></payload>
+        <payload_hash>-1875904067</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>8c23e223939f6a1005b6367efaba10ca</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-22 15:48:43</sys_created_on>
+        <sys_id>2c5f0f8f93c032d005b6367efaba1020</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199721cf2be0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-22 15:48:43</sys_updated_on>
+        <type>Decision Condition</type>
+        <update_guid>8be63b0a5ac0fa90fcf1028c95249b0b</update_guid>
+        <update_guid_history>8be63b0a5ac0fa90fcf1028c95249b0b:860736510,8be63b0a5ac0fa90fcf1028c95249b0b:860736510</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">995f0f8f93c032d005b6367efaba10d5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-22 15:48:46</sys_created_on>
+        <sys_db_object display_value="" name="sn_decision_table_decision_condition">sn_decision_table_decision_condition</sys_db_object>
+        <sys_id>130a5866800842b881e25a4de274aa40</sys_id>
+        <sys_metadata>83e63b0a93c0fa9005b6367efaba1009</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_scope_delete display_value="">447b3e640b474124ae5e82f54cbb34a1</sys_scope_delete>
+        <sys_update_name>sn_decision_table_decision_condition_83e63b0a93c0fa9005b6367efaba1009</sys_update_name>
+        <sys_update_version display_value="sn_decision_table_decision_condition_83e63b0a93c0fa9005b6367efaba1009">2c5f0f8f93c032d005b6367efaba1020</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-22 15:48:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

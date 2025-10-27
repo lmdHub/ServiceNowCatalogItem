@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_request_item" label="Request Item" language="en" table="var__m_sys_decision_input_e4cbab4293c0fa9005b6367efaba1087">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_request_item</element>
+            <help/>
+            <hint/>
+            <label>Request Item</label>
+            <language>en</language>
+            <name>var__m_sys_decision_input_e4cbab4293c0fa9005b6367efaba1087</name>
+            <plural>Request Item</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-22 15:48:44</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Request Item</sys_name>
+            <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_decision_input_e4cbab4293c0fa9005b6367efaba1087_u_request_item_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-22 15:48:44</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

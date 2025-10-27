@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="ecc_agent_script_file">
+    <ecc_agent_script_file action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <checksum/>
+        <description>Create New Computer in AD for the requested for user if no computer assigned</description>
+        <directory>false</directory>
+        <name>CreateADComputer.ps1</name>
+        <parent display_value="PowerShell">ef89e4fc372001006b882d465abe5d60</parent>
+        <script># Define user, computer, and operating system variables&#13;
+$username = $user&#13;
+$computername = $compt&#13;
+$os =  $ops&#13;
+&#13;
+# Import Active Directory module&#13;
+Import-Module ActiveDirectory -ErrorAction Stop&#13;
+&#13;
+# Attempt to locate the user in AD&#13;
+$user = Get-ADUser -Filter {&#13;
+    SamAccountName -eq $username -or&#13;
+    userPrincipalName -eq $username -or&#13;
+    mail -eq $username&#13;
+} -Properties DistinguishedName&#13;
+&#13;
+# Exit if user not found&#13;
+if (-not $user) {&#13;
+    Write-Error "User '$username' not found."&#13;
+    exit 1&#13;
+}&#13;
+&#13;
+# Get user's distinguished name&#13;
+$dn = $user.DistinguishedName&#13;
+&#13;
+# Check if any computer is already managed by this user&#13;
+$managed = Get-ADComputer -Filter "ManagedBy -eq '$dn'" -Properties ManagedBy&#13;
+if ($managed) {&#13;
+    Write-Output "User '$username' already manages computer: $($managed.Name)"&#13;
+    exit 0&#13;
+}&#13;
+&#13;
+# Try to find the computer in AD&#13;
+$computer = Get-ADComputer -Filter "Name -eq '$computername'" -ErrorAction SilentlyContinue&#13;
+&#13;
+if ($computer) {&#13;
+    # Assign user as manager of existing computer&#13;
+    Set-ADComputer -Identity $computername -ManagedBy $dn&#13;
+    Write-Output "Existing computer '$computername' assigned to '$username'."&#13;
+} else {&#13;
+    # Create new computer object with OS attributes&#13;
+    try {&#13;
+        New-ADComputer -Name $computername `&#13;
+                       -SamAccountName $computername `&#13;
+                       -Path "OU=CorpComputers,DC=lmdcorp,DC=com" `&#13;
+                       -ManagedBy $dn `&#13;
+                       -Enabled $true `&#13;
+                       -OtherAttributes @{&#13;
+                           OperatingSystem = $os&#13;
+                       }&#13;
+        Write-Output "New computer '$computername' created for '$username' ."&#13;
+    } catch {&#13;
+        Write-Error "Failed to create computer '$computername': $_"&#13;
+        exit 1&#13;
+    }&#13;
+}</script>
+        <script_attachment/>
+        <source/>
+        <sys_class_name>ecc_agent_script_file</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-22 17:42:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c378530f930432d005b6367efaba10d0</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>CreateADComputer.ps1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>ecc_agent_script_file_c378530f930432d005b6367efaba10d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-23 02:37:04</sys_updated_on>
+        <use_attachment>false</use_attachment>
+        <version/>
+    </ecc_agent_script_file>
+</record_update>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result">
+    <sys_decision_multi_result action="INSERT_OR_UPDATE">
+        <decision_table display_value="MySDeskDT">e4cbab4293c0fa9005b6367efaba1087</decision_table>
+        <label>Assign To: User=X GroupUser =XX</label>
+        <result_elements/>
+        <sys_class_name>sys_decision_multi_result</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-19 16:07:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8be677429304fa9005b6367efaba101f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assign To: User=X GroupUser =XX</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MyServiceDesk" source="x_1808462_mysdesk">bcb2fd1c935ba25005b6367efaba10ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyServiceDesk">bcb2fd1c935ba25005b6367efaba10ed</sys_scope>
+        <sys_update_name>sys_decision_multi_result_8be677429304fa9005b6367efaba101f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-19 16:07:49</sys_updated_on>
+    </sys_decision_multi_result>
+    <sys_variable_value action="delete_multiple" query="document_key=8be677429304fa9005b6367efaba101f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>8be677429304fa9005b6367efaba101f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-19 16:07:49</sys_created_on>
+        <sys_id>8fe677429304fa9005b6367efaba101f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-19 16:07:49</sys_updated_on>
+        <value>User=X GroupUser =XX</value>
+        <variable display_value="Assign To">fae637429304fa9005b6367efaba10d3</variable>
+    </sys_variable_value>
+</record_update>
